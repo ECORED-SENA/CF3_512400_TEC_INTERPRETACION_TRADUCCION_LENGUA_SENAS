@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+  <g id="Grupo_1000189" data-name="Grupo 1000189" transform="translate(-597.5 -1236)">
+    <circle id="Elipse_4796" data-name="Elipse 4796" cx="42.5" cy="42.5" r="42.5" transform="translate(597.5 1236)" fill="#f7cad2"/>
+    <g id="XMLID_472_" transform="translate(589.4 1229.801)">
+      <g id="XMLID_4344_" transform="translate(28.1 22.2)">
+        <path id="XMLID_4345_" d="M54.167,22.2H31.53a3.46,3.46,0,0,0-3.43,3.43V66.788a3.46,3.46,0,0,0,3.43,3.43h32.8a3.46,3.46,0,0,0,3.43-3.43V35.795Z" transform="translate(-28.1 -22.2)" fill="#fff"/>
+        <path id="XMLID_1499_" d="M69.9,32.365a3.46,3.46,0,0,0,3.43,3.43H83.495L69.9,22.2Z" transform="translate(-43.833 -22.2)" fill="#afafaf"/>
+        <g id="XMLID_4346_" transform="translate(4.802 19.769)">
+          <path id="XMLID_1498_" d="M35.8,53.9H65.921v2.183H35.8Z" transform="translate(-35.8 -53.9)" fill="#d5d6db"/>
+          <path id="XMLID_1497_" d="M35.8,66.8H65.921v2.183H35.8Z" transform="translate(-35.8 -58.755)" fill="#d5d6db"/>
+          <path id="XMLID_1496_" d="M35.8,79.6H65.921v2.183H35.8Z" transform="translate(-35.8 -63.573)" fill="#d5d6db"/>
+        </g>
+        <g id="XMLID_4347_" transform="translate(5.69 13.049)">
+          <path id="XMLID_1495_" d="M0,0H4.552V6.3H0Z" transform="translate(21.474 24.749) rotate(-45)" fill="#64798a"/>
+          <path id="XMLID_4348_" d="M61.53,47.288a14.243,14.243,0,1,0,0,20.143A14.265,14.265,0,0,0,61.53,47.288Zm-2.744,17.4a10.407,10.407,0,1,1,0-14.717A10.426,10.426,0,0,1,58.786,64.686Z" transform="translate(-37.225 -43.125)" fill="#27a2db"/>
+          <path id="XMLID_1494_" d="M88.733,87.649,81,81.163a.964.964,0,0,0-1.31.062l-4.365,4.365a.964.964,0,0,0-.062,1.31l6.486,7.733a4.957,4.957,0,1,0,6.984-6.984Z" transform="translate(-51.457 -57.357)" fill="#ffa031"/>
+        </g>
+        <ellipse id="XMLID_1493_" cx="2.37" cy="4.552" rx="2.37" ry="4.552" transform="translate(16.986 17.938) rotate(45)" fill="#cceafb"/>
+      </g>
+    </g>
+  </g>
+</svg>

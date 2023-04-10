@@ -3,15 +3,16 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p El lenguaje de señas es una disciplina que constantemente se encuentra en proceso de investigación, es innegables que el lenguaje español es la base sobre la cual esta se desarrolla, dicho lenguaje ha sido estudiado desde su morfología, sintaxis, semántica, fonoaudiología y un sinnúmero de fenómenos que permiten su entendimiento dentro de diferente contextos, por ende, resulta fundamental conocer la relación de todos estas áreas de estudio con el lenguaje de señas colombiano, aspectos que contribuirán a que el intérprete desarrolle su labor de la mejor manera posible 
+
+    p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema: 
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

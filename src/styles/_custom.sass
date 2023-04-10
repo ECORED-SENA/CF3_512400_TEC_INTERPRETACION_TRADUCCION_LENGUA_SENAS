@@ -2,13 +2,36 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    left: 0%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 15%
+    left: 0%
+  &-3
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 10%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 10%
+
+
+  @media (max-width: 1330px)    
+    &-1
+      width: 85px !important
+    &-2
+      width: 85px !important
+    &-3
+      width: 85px !important
+    &-4
+      width: 85px !important
+    
+  
 
 
 @keyframes float1
@@ -17,3 +40,244 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(0.85)
+
+  100%
+    transform: scale(1.2)
+
+// Fondos  ---------------------------------------
+
+.bg_gray
+  background-color: #F6F6F6
+
+.bg_darkBlue
+  padding: 0.75rem 0
+  background-color: #12263F
+  
+  h4
+    color: white
+    text-align: center
+
+
+.bg_blue_pink
+  position: relative
+  width: 100%
+  height: 100%
+  padding: 2rem
+  background-color: #CCEAFB
+  & > *
+    position: relative   
+  &::before    
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    width: 50%
+    height: 100%
+    background-color: #FCEBEE
+
+@media (max-width: 990px)    
+  .bg_blue_pink
+    &::before    
+      content: ''
+      position: absolute
+      bottom: 0 !important
+      left: 0 !important
+      width: 100%
+      height: 50%
+      background-color: #FCEBEE
+
+
+// texto ---------------------------------------
+
+.bold
+  font-weight: 700
+.clr-wine
+  color: #7E2736
+.clr-blue
+  color: #0098E8
+.clr-orange
+  color: #FFA031
+
+.cstmH3--blue
+  display: inline-block
+  padding: 0.75rem 1.5rem
+  background-color: #0079B9
+  border-top-right-radius: 30px
+  border-bottom-left-radius: 30px
+  h3
+    color: white
+
+.cstmH1--blue
+  display: inline-block
+  position: relative
+  left: 50%
+  transform: translateX(-50%)  
+  padding: 0.75rem 3.7rem
+  background-color: #12263F  
+  h1
+    color: white
+
+
+// Utilidades ---------------------------------------
+
+.hr_line
+  width: 100%
+  margin: 5px 0
+  height: 2px
+  background-color: #AFAFAF
+
+.img85
+  width: 85px
+.img120
+  width: 120px
+.img168
+  width: 168px
+
+.shadow
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+// Colores ---------------------------------------
+
+.color-rosa 
+  background-color: #ED9AA9
+
+.color-rosa-claro
+    background-color: #FBE6E9
+.color-gris
+    background-color: #F5F5F5
+
+// Bloque de texto destacado ---------------------------------------
+.cajon
+  &.color-celeste
+    background-color: #BFE5F9
+    &::before
+      background-color: #0098E8
+
+  &.color-rosa
+    background-color: #FCEBEE
+    &::before
+      background-color: #ED9AA9
+
+.bloque-texto-a.color-azulRosa
+  background-color: #CCEAFB
+  &::before
+    background-color: #ED9AA9
+
+.bg-gray
+  background-color: #F6F6F6
+
+.crd-pink
+  background-color: #FCEBEE
+.crd-cyan
+  background-color: #BFE5F9
+.crd-cyan02
+  background-color: #E5F4FD
+
+// Bloque de texto destacado ---------------------------------------
+
+.crd-avatar-Horizontal
+  position: relative
+  padding: 1rem
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    width: calc( 100% - 55px )
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 25px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+// Tarjeta Avatar vertical ---------------------------------------
+
+.crd--avatarV
+  position: relative
+  height: 100%   
+  border-radius: 20px         
+  & > *
+    position: relative
+
+  .crd--avatarV--img
+    position: relative   
+    width: 100%  
+    background-color: white
+    & > *
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%  
+      height: 50%     
+      border-top-left-radius: 20px
+      border-top-right-radius: 20px
+  .crd--avatarV--body
+    padding: 1rem 2rem 2rem 2rem       
+
+.crd--avatarV.clr--blue
+  background-color: #CCEAFB
+  .crd--avatarV--img
+    &::before  
+      background-color: #CCEAFB
+
+.crd--avatarV.clr--pink
+  background-color: #FCEBEE
+  .crd--avatarV--img
+    &::before  
+      background-color: #FCEBEE
+
+// slyder ---------------------------------------
+
+.bg-slyder
+  width: 100%
+  background-image: url(../assets/curso/temas/recursos/bg_slyder.svg)
+  background-size: cover
+  background-position: top left
+  background-repeat: no-repeat
+  border-radius: 25px
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #0098E8
+  background-image: url(../assets/componentes/arrow_white.svg)
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF
+
+.slyder-a__bullets__item--active
+  background-color: #0098E8 !important
+  border: none
+
+.slyder-f
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      .horizontal-scroll
+        align-items: stretch !important
+
+.hg-100
+  height: 100% !important
+
+
+// Linea tiempo d (pasos) ---------------------------------------
+.linea-tiempo-d__item.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #BFE5F9
+
+// Botones infografías interactivas ---------------------------------------
+.tarjeta.color-acento-botones          
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: 1
