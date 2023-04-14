@@ -290,124 +290,111 @@ export default {
       link: 'https://repository.unad.edu.co/handle/10596/31286',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Claudia Patricia Aristizabal',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable de la línea de Santander',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
-        cargo: 'Instructora',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón',
-        cargo: 'Instructor',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'German Albeiro Saldarriga',
-        cargo: 'Instructor',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'Adriana María Bustamante',
-        cargo: 'Profesional Diseño Curricular',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'Luz Mila Pacheco Fuentes',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Sergio Arturo Medina Castillo',
-        cargo: 'Evaluador instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Activador de recursos en plataforma LMS',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nidian Yarume Ortiz Buitrago',
-        cargo: 'Experta',
-        centro:
-          'Centro de Formación en Talento Humano y Salud - Regional Bogotá',
-      },
-      {
-        nombre: 'Jeimy Lorena Romero Perilla',
-        cargo: 'Diseñador Instruccional',
-        centro:
-          'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
-      },
-      {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Asesora Metodológica',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Jesús Antonio Vecino',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Daniel Ricardo Mutis Gómez',
-        cargo: 'Validación de diseño y accesibilidad',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Líder del ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Jhacesiz Mary Hincapié Atehortúa',
+          cargo: 'Instructora',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+        },
+        {
+          nombre: 'Manuel Alejandro Garzón',
+          cargo: 'Instructor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+        },
+        {
+          nombre: 'German Albeiro Saldarriga ',
+          cargo: 'Instructora',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+        },
+        {
+          nombre: 'Adriana María Bustamante',
+          cargo: 'Profesional Diseño Curricular',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+        },
+        {
+          nombre: 'Nidian Yarume Ortiz Buitrago',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Jeimy Lorena Romero Perilla',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander.',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
