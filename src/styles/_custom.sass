@@ -29,9 +29,7 @@
     &-3
       width: 85px !important
     &-4
-      width: 85px !important
-    
-  
+      width: 85px !important 
 
 
 @keyframes float1
@@ -59,15 +57,31 @@
 
 .bg_gray
   background-color: #F6F6F6
+.bg_gray02
+  padding: 1rem
+  background-color: #F6F6F6
+  border-radius: 15px
+
+.bg_lightBlue
+  padding: 1rem
+  background-color: #D1F5FF
+  border-radius: 15px
+
+.bg_pink
+  background-color: #F7C0C8
+  border-radius: 12px
 
 .bg_darkBlue
   padding: 0.75rem 0
-  background-color: #12263F
-  
+  background-color: #12263F  
   h4
     color: white
     text-align: center
 
+.bg_darkBlue_02
+  padding: 1rem 2rem
+  background-color: #12263F 
+  border-radius: 999px
 
 .bg_blue_pink
   position: relative
@@ -109,6 +123,17 @@
 .clr-orange
   color: #FFA031
 
+.btmLine  
+  position: relative  
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -15px
+    width: 4px
+    height: 100%
+    background-color: orange
+
 .cstmH3--blue
   display: inline-block
   padding: 0.75rem 1.5rem
@@ -131,27 +156,47 @@
 
 // Utilidades ---------------------------------------
 
+.blueSquare
+  position: relative
+  h4    
+    padding-left: 25px
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 16px
+    height: 16px
+    background-color: #4DB1F0  
+
+.V-align
+  align-self: center
+
 .hr_line
   width: 100%
   margin: 5px 0
   height: 2px
   background-color: #AFAFAF
 
+.img65
+  width: 65px
 .img85
   width: 85px
 .img120
   width: 120px
 .img168
   width: 168px
+.img250
+  width: 250px
+.img300
+  width: 300px
 
 .shadow
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 
 // Colores ---------------------------------------
-
 .color-rosa 
   background-color: #ED9AA9
-
 .color-rosa-claro
     background-color: #FBE6E9
 .color-gris
@@ -176,7 +221,6 @@
 
 .bg-gray
   background-color: #F6F6F6
-
 .crd-pink
   background-color: #FCEBEE
 .crd-cyan
@@ -271,6 +315,11 @@
 .hg-100
   height: 100% !important
 
+.y-aligment
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
 
 // Linea tiempo d (pasos) ---------------------------------------
 .linea-tiempo-d__item.linea-tiempo-d__item--selected
@@ -281,3 +330,13 @@
 .tarjeta.color-acento-botones          
 .img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
   opacity: 1
+
+@media (max-width: 900px)
+  .slyder-a__bullets__item
+    width: 8px
+    height: 8px
+
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    width: 30px
+    height: 30px
+

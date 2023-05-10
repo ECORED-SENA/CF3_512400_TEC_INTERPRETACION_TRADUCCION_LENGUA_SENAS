@@ -19,10 +19,10 @@
       .col-lg-10(data-aos="zoom-in")
         .cajon.color-celeste.p-4
           .row.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t1/t1_02.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 La segunda lengua hace referencia a aquella que se aprende por gusto, después de haber adquirido la lengua materna, es una opción que dispone el ser humano para establecer otras formas de comunicación. A continuación, se invita a profundizar en cada una de ellas.
 
     separador
@@ -54,10 +54,10 @@
       .col-lg-10
         .cajon.color-celeste.p-4
           .row.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t1/t1_04.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 “Aquella lengua cuyo canal no presenta obstáculos a los hablantes y se encuentra en armonía con sus características fisiológicas y de igual manera que la lengua materna, es adquirida sin necesidad de instrucción formal” Nieto (2017).
 
     .cstmH3--blue.mb-5(data-aos="fade-right")
@@ -104,7 +104,7 @@
                 img(src="@/assets/curso/temas/t1/t1_06.svg", alt="alt").img85
             .col
               h3 Adquisición
-              p.mb-0 Obedece a un proceso inconsciente y espontáneo que se desarrolla en un ambiente natural a partir del uso de la lengua (Krashen, 1982)
+              p.mb-0 Obedece a un proceso inconsciente y espontáneo que se desarrolla en un ambiente natural a partir del uso de la lengua (Krashen, 1982).
       .col-lg-6(data-aos="flip-right")
         .crd-avatar-Horizontal.hg-100
           .row

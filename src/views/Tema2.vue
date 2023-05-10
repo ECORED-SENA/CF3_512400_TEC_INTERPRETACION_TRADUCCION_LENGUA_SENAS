@@ -7,7 +7,11 @@
         span 2
       h1 Sociolingüística
 
-    p(data-aos="fade-in") La sociolingüística se centra en fronteras sociales, identifica los procesos de cambios en la lengua y la heterogeneidad lingüística y social y se orienta especialmente en los centros urbanos; la sociolingüística intenta dar respuesta a diferentes interrogantes, los cuales se conocen a continuación:
+    p.mb-4(data-aos="fade-in") La sociolingüística se centra en fronteras sociales, identifica los procesos de cambios en la lengua y la heterogeneidad lingüística y social y se orienta especialmente en los centros urbanos; la sociolingüística intenta dar respuesta a diferentes interrogantes, los cuales se conocen a continuación:
+
+    .row.justify-content-center.mb-4
+      .col-auto.ms-5
+        h3.btmLine Interrogantes a los que responde la sociolingüística
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -83,7 +87,7 @@
       .col-lg-10
         .bloque-texto-g.color-rosa.p-3.p-sm-4.p-md-5.mb-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_06.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_06.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 De acuerdo con McNamara (citado en Cárdenas, 2018), el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua, lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.  
@@ -126,16 +130,14 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_08.png", alt="alt")
 
-    .row.justify-content-center.mb-5
-      .col-lg-10.mb-4(data-aos="fade-in")
-        .bloque-texto-a.color-azulRosa.p-4.p-md-5
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              figure
-                img(src="@/assets/curso/temas/t2/t2_09.svg", alt="alt")
-            .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p.mb-0 El interés por los dialectos y su estudio se inicia a finales del siglo XVIII. Para definir el término dialecto, es necesario tener claridad en otros conceptos que están íntimamente relacionados entre sí, a saber, lengua, estilo de lengua y nivel de lengua. Muchos académicos han intentado estudiar y clasificar dialectalmente el español de América, acabando en esbozos o propuestas de una clasificación panhispánica, mientras que otros han aportado algunas precisiones teóricas para tal clasificación. Uno de ellos es la bipartición dialectal entre el español americano con el peninsular de España.  
+    .row.justify-content-center.mb-4(data-aos="zoom-in")
+      .col-lg-10
+        .bloque-texto-g.color-rosa.p-3.p-sm-4.p-md-5.mb-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_09.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El interés por los dialectos y su estudio se inicia a finales del siglo XVIII. Para definir el término dialecto, es necesario tener claridad en otros conceptos que están íntimamente relacionados entre sí, a saber, lengua, estilo de lengua y nivel de lengua. Muchos académicos han intentado estudiar y clasificar dialectalmente el español de América, acabando en esbozos o propuestas de una clasificación panhispánica, mientras que otros han aportado algunas precisiones teóricas para tal clasificación. Uno de ellos es la bipartición dialectal entre el español americano con el peninsular de España.      
 
       .col-lg-10(data-aos="fade-in")    
         .crd-cyan02.p-4
@@ -161,29 +163,78 @@
 
     p(data-aos="fade-in") Las causas del desarrollo de los diferentes dialectos o variedades de las lenguas son numerosas, pero básicamente son de dos tipos, a saber:
 
+    .bg_darkBlue
+      h3.text-white.text-center.mb-0 Causas del desarrollo de dialectos
+
     .bg_blue_pink.mb-5(data-aos="zoom-in")
       .row.justify-content-center
         .col-lg-4.mb-4.mb-lg-0
           h3 Factores externos a la lengua (históricos, geográficos, sociales, etc.)
           p.mb-0 Pueden darse debido a la migración de grupos de alguna región específica. Por ejemplo, se puede decir que a Argentina llegaron más italianos, a Perú más castellanos y a Venezuela más canarios. Estos grupos incidieron en el tiempo y la geografía, además de la distancia social mezclado con los factores de la edad, el sexo y/o la clase social. Este último, llamado también sociolecto, por desarrollarse en un mismo lugar geográfico y contexto social forma un símbolo de identidad grupal fuerte.
-        .col-lg-4.col-10.mb-4.mb-lg-0
+        .col-lg-4.col-10.mb-4.mb-lg-0.V-align
           figure
             img(src="@/assets/curso/temas/t2/t2_11.svg", alt="alt")
         .col-lg-4
           h3 Factores internos, propios de la lengua y de su estructura
           p.mb-0 Al transcurrir el tiempo, las lenguas cambian de forma natural. Así, los hablantes de una misma lengua pueden ofrecer diversas posibilidades de expresarse, por ello, cuando algún grupo se inclina por una de estas, nace una diferencia dialectal. Estos factores incluyen procesos de regularización y generalización de patrones lingüísticos.
+          
 
     .cstmH3--blue.mb-4(data-aos="fade-right")
       h3.mb-0 División dialectal en Colombia
 
-    p.mb-5(data-aos="fade-in") La división adoptada del Atlas de Colombia del Instituto Geográfico Agustín Codazzi (1977), refiere desde el punto de vista de la etnografía y la sociología (comunidad criolla colombiana) y la divide en ocho grupos: costeño, caucano, antioqueño, santandereano, cundiboyacense, llanero, tolimense y nariñense. 
+    p(data-aos="fade-in") La división adoptada del Atlas de Colombia del Instituto Geográfico Agustín Codazzi (1977), refiere desde el punto de vista de la etnografía y la sociología (comunidad criolla colombiana) y la divide en ocho grupos: costeño, caucano, antioqueño, santandereano, cundiboyacense, llanero, tolimense y nariñense. 
+    p(data-aos="fade-in").mb-5 Montes (1983), propone una clasificación dialectal del español de Colombia de la siguiente manera:
 
-    h3(data-aos="fade-right") Clasificación dialectal del español de Colombia
+    .row.justify-content-center.mb-3(data-aos="fade-right")
+      .col-auto
+        .bg_darkBlue_02
+          h4.text-white.mb-0 Clasificación dialectal del español de Colombia    
 
-    .row.justify-content-center(data-aos="zoom-in")
-      .col-lg-10.col
+    .row.justify-content-center.align-items-center
+      .col-xl-7.col-lg-7(data-aos="zoom-in")
         figure
-          img(src="@/assets/curso/temas/t2/t2_12.png", alt="alt")
+          img(src="@/assets/curso/temas/t2/t2_12.svg", alt="alt")
+      .col-xl-8
+        .bg_gray02.mb-4(data-aos="flip-right")
+          .row.align-items-center
+            .col-md-auto.mb-3.mb-md-0
+              figure
+                img(src="@/assets/curso/temas/t2/t2_12A.png", alt="alt").img65.m-auto
+            .col-md
+              p.mb-0 #[strong Dos superdialectos:] costeño y andino
+      
+        .bg_gray02.mb-4(data-aos="flip-right")
+          .row.align-items-center
+            .col-md-auto.mb-3.mb-md-0
+              figure
+                img(src="@/assets/curso/temas/t2/t2_12B.png", alt="alt").img65.m-auto
+            .col-md
+              p.mb-0 #[strong Dos dialectos costeños:] el costeño pacifico y el costeño caribe (diferenciados por el tuteo-voseo)
+      
+        .bg_gray02.mb-4(data-aos="flip-right")
+          .row.align-items-center
+            .col-md-auto.mb-3.mb-md-0
+              figure
+                img(src="@/assets/curso/temas/t2/t2_12C.png", alt="alt").img65.m-auto
+            .col-md
+              p.mb-0 #[strong Dos dialectos andinos:] el centro-oriental y el centro-occidental
+      
+        .bg_gray02.mb-4(data-aos="flip-right")
+          .row.align-items-center
+            .col-md-auto.mb-3.mb-md-0
+              figure
+                img(src="@/assets/curso/temas/t2/t2_12D.png", alt="alt").img65.m-auto
+            .col-md
+              p.mb-0 #[strong Una serie de subdialectos:] el cartagenero, el samario, el guajiro, el costeño interior en el costeño caribe, el antioqueño, el nariñense-caucano, el tolimense-huilense, el cundiboyacense y el santandereano en el dialecto centro-oriental, determinados por isoglosas léxicas.
+      
+        .bg_gray02.mb-4(data-aos="flip-right")
+          .row.align-items-center
+            .col-md-auto.mb-3.mb-md-0
+              figure
+                img(src="@/assets/curso/temas/t2/t2_12E.png", alt="alt").img65.m-auto
+            .col-md
+              p.mb-0 #[strong Subdivisiones de los subdialectos] (hablas regionales como el huilense o locales como el de Santa Marta)
+    
 
     separador
 
@@ -253,74 +304,74 @@
               p Puede notarse tanto en la oralidad como en las lenguas de señas, en variedades diafásicas más relajadas:
               ul.fa-ul
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de repeticiones y redundancias.
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de repeticiones y redundancias.
                 li.mb-2
-                  i.fa-li
-                  | ●	Elipsis y frases inacabadas.
+                  i.fa-li.fas.fa-chevron-right
+                  | Elipsis y frases inacabadas.
                 li.mb-2
-                  i.fa-li
-                  | ●	Oraciones cortas y sencillas.
+                  i.fa-li.fas.fa-chevron-right
+                  | Oraciones cortas y sencillas.
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de onomatopeyas.
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de onomatopeyas.
                 li.mb-2
-                  i.fa-li
-                  | ●	Abundan las contracciones.
+                  i.fa-li.fas.fa-chevron-right
+                  | Abundan las contracciones.
                 li.mb-2
-                  i.fa-li
-                  | ●	Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.       
+                  i.fa-li.fas.fa-chevron-right
+                  | Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.       
 
           .row(numero="2" titulo="Espontaneidad e imprecisión")
             .col-12
               p Uso de un código poco o nada elaborado:
               ul.fa-ul
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de un artículo antes del antropónimo.
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de un artículo antes del antropónimo.
                 li.mb-2
-                  i.fa-li
-                  | ●	Incoherencias, cambios de tema, razonamientos inacabados.
+                  i.fa-li.fas.fa-chevron-right
+                  | Incoherencias, cambios de tema, razonamientos inacabados.
                 li.mb-2
-                  i.fa-li
-                  | ●	Incorrecciones léxicas.
+                  i.fa-li.fas.fa-chevron-right
+                  | Incorrecciones léxicas.
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de apócopes. 
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de apócopes. 
 
           .row(numero="3" titulo="Expresividad")
             .col-12
               p Predomina con enunciados de carga expresiva, afectiva y emotiva:
               ul.fa-ul
                 li.mb-2
-                  i.fa-li
-                  | ●	Exceso de sufijos apreciativos.
+                  i.fa-li.fas.fa-chevron-right
+                  | Exceso de sufijos apreciativos.
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de interjecciones.
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de interjecciones.
                 li.mb-2
-                  i.fa-li
-                  | ●	Utilización de comparaciones humorísticas.
+                  i.fa-li.fas.fa-chevron-right
+                  | Utilización de comparaciones humorísticas.
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de jerga y argot. 
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de jerga y argot. 
 
           .row(numero="4" titulo="Contacto con el emisor")
             .col-12
               p El apoyo de los códigos extratextuales de las funciones fáticas:
               ul.fa-ul
                 li.mb-2
-                  i.fa-li
-                  | ●	Modismos, refranes, frases propias.
+                  i.fa-li.fas.fa-chevron-right
+                  | Modismos, refranes, frases propias.
                 li.mb-2
-                  i.fa-li
-                  | ●	Uso de vocativos, saludos, apelaciones, felicitaciones.
+                  i.fa-li.fas.fa-chevron-right
+                  | Uso de vocativos, saludos, apelaciones, felicitaciones.
                 li.mb-2
-                  i.fa-li
-                  | ●	Eufemismos.
+                  i.fa-li.fas.fa-chevron-right
+                  | Eufemismos.
                 li.mb-2
-                  i.fa-li
-                  | ●	Pérdida de eufemística.
+                  i.fa-li.fas.fa-chevron-right
+                  | Pérdida de eufemística.
 
    
     .cajon.color-rosa.p-4.mb-5(data-aos="zoom-in")          
@@ -346,30 +397,30 @@
               
 
           .tarjeta.color-acento-contenido.p-3(x="24%" y="7%" numero="+")
-            .h5.mb-2 Abandono
-            p Dejar solo algo o alguien alejándose de ello o dejando de cuidarlo.
+            .h5.mb-2  Diccionario de la Real Academia Española - RAE
+            p #[strong Abandono:] dejar solo algo o alguien alejándose de ello o dejando de cuidarlo.
 
           .tarjeta.color-acento-contenido.p-3(x="75%" y="7%" numero="+")
-            .h5.mb-2 Abandono
-            p De concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable. 
+            .h5.mb-2 Diccionario virtual de biología - BioDic
+            p #[strong Abandono:] de concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable. 
 
           .tarjeta.color-acento-contenido.p-3(x="24%" y="95%" numero="+")
-            .h5.mb-2 Abandono
-            p Se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
+            .h5.mb-2 Diccionario de ciencias jurídicas, políticas y sociales, edición electrónica de Manuel Osorio.
+            p #[strong Abandono:] se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
 
           .tarjeta.color-acento-contenido.p-3(x="75%" y="95%" numero="+")
-            .h5.mb-2 Abandono
-            p Viene del verbo abandonar y este del francés abandonner, y este de la expresión #[i laisser à bandon] (dejar en poder de alguien).
+            .h5.mb-2 Diccionario etimológico castellano en línea
+            p #[strong Abandono:] viene del verbo abandonar y este del francés abandonner, y este de la expresión #[i laisser à bandon] (dejar en poder de alguien).
 
     .row.justify-content-center.mb-5(data-aos="zoom-in") 
       .col-lg-10        
         .cajon.color-celeste.p-4
           .row.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t2/t2_21.png", alt="alt").img85.m-auto
-            .col
-              p.mb-0 A medida que el ser humano hace nuevos descubrimientos, hay que darles nombre, inventar vocablos nuevos, hay que crear neologismos; lo que también resulta extraño a la lengua y hace que la terminología técnica vaya en aumento. Mucha de la documentación científica y técnica está escrita en idiomas extranjeros, lo que requiere encontrar equivalencias entre idiomas para determinar el término correspondiente, de otro modo, hay que recurrir a los neologismos.
+            .col-md
+              p.mb-0 A medida que el ser humano hace nuevos descubrimientos, hay que darles nombre, inventar vocablos nuevos, hay que crear neologismos; lo que también resulta extraño a la lengua y hace que la terminología técnica vaya en aumento. Mucha de la documentación científica y técnica está escrita en idiomas extranjeros, lo que requiere encontrar equivalencias entre idiomas para determinar el término correspondiente, de otro modo, hay que recurrir a los #[strong neologismos].
 
     separador
 
@@ -458,10 +509,10 @@
           span.me-5.float-end - (Stokoe, 1981)
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-xl-3.col-md-5.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_28.png", alt="alt")
-      .col-lg-9(data-aos="fade-in")
+      .col-xl-9(data-aos="fade-in")
         p.mb-5 Para Stokoe, el análisis tenía un esquema sencillo donde las manos se ubican en el espacio o en el cuerpo mientras realiza algún movimiento, de ahí estos tres componentes o aspectos:
 
         .row.justify-content-center.mb-5
@@ -497,27 +548,65 @@
     .cstmH3--blue.mb-4(data-aos="fade-right")
       h3.mb-0 Morfología de la LSC
 
-    p(data-aos="fade-in").mb-5 Frente a la morfología de la Lengua de Señas en Colombia, Oviedo (2001), resalta los siguientes  aspectos: 
+    p(data-aos="fade-in").mb-5 Frente a la morfología de la Lengua de Señas en Colombia, Oviedo (2001), resalta los siguientes  aspectos:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
+      .col-lg-10.mb-3(data-aos="flip-right")
         .bg_gray
-          figure
-            img(src="@/assets/curso/temas/t2/t2_32.svg", alt="alt")
-        .bg_darkBlue
-          h4.mb-0 La postura de la mano
-      .col-lg-4.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
+          .row.g-0
+            .col-md-3
+              .crd-cyan.hg-100
+                figure.y-aligment
+                  img(src="@/assets/curso/temas/t2/t2_32.svg", alt="alt").img250.m-auto
+            .col
+              .bg_darkBlue
+                h4.mb-0 La postura de la mano
+              .bg-gray.p-4
+                p Acá se estudian los siguientes aspectos:
+                ul.fa-ul
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Cómo funciona el dedo.
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Rasgos articulatorios: hace referencia a las partes móviles, ubicación y orientación
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Matriz articulatoria: configuración manual, ubicación y orientación del articulador.
+      .col-lg-10.mb-3(data-aos="flip-right")
         .bg_gray
-          figure
-            img(src="@/assets/curso/temas/t2/t2_33.svg", alt="alt")
-        .bg_darkBlue
-          h4.mb-0 La actividad de la mano
-      .col-lg-4.col-md-8.col-10(data-aos="flip-right")
+          .row.g-0
+            .col-md-3
+              .crd-cyan.hg-100
+                figure.y-aligment
+                  img(src="@/assets/curso/temas/t2/t2_33.svg", alt="alt").img250.m-auto
+            .col
+              .bg_darkBlue
+                h4.mb-0 La actividad de la mano
+              .bg-gray.p-4
+                p Segmental compuesta por:
+                ul.fa-ul
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Movimiento: periodo en el que cambia la articulación.
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Detención: Periodo en el que la articulación no hace cambios.
+                  li.mb-2
+                    i.fa-li.fas.fa-chevron-right
+                    | Transición: periodo menos que el de la detención.
+      .col-lg-10(data-aos="flip-right")
         .bg_gray
-          figure
-            img(src="@/assets/curso/temas/t2/t2_34.svg", alt="alt")
-        .bg_darkBlue
-          h4.mb-0 La actividad no manual
+          .row.g-0
+            .col-md-3
+              .crd-cyan.hg-100
+                figure.y-aligment
+                  img(src="@/assets/curso/temas/t2/t2_34.svg", alt="alt").img250.m-auto
+            .col
+              .bg_darkBlue
+                h4.mb-0 La postura de la mano
+              .bg-gray.p-4
+                p Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.      
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-10.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="zoom-in")
@@ -537,10 +626,10 @@
       .col-lg-10
         .crd-pink.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t2/t2_36.png", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 #[strong Sintaxis:] Es la parte de la gramática que pone orden a las palabras y forma oraciones. En el caso de las lenguas de señas se puede hablar de una sintaxis o modo en el que están ordenadas las señas con su significado propio y sus partes, para transmitir mensajes complejos.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -688,10 +777,10 @@
       .col-lg-10
         .crd-pink.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t2/t2_36.png", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 #[strong Pragmática:] estudia cómo se usa el lenguaje y se relacionan el enunciado, el contexto y los interlocutores. Esta rama de la lingüística estudia cómo se desenvuelve la conversación e interacción en determinados contextos. El contexto se refiere a la situación en la que se desarrolla el acto comunicativo y las relaciones interpersonales entre los hablantes.
     
     

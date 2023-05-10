@@ -14,7 +14,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6JL0h5blOwE" title="Sociolingüística, bilingüismo y neologismos de la Lengua de Señas Colombiana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Sociolingüística, bilingüismo y neologismos de la Lengua de Señas Colombiana.
+      figcaption Video. Sociolingüística, bilingüismo y neologismos de la Lengua de Señas Colombiana.
 
 
 </template>

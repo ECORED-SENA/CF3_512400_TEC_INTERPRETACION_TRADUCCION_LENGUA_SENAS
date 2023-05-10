@@ -133,8 +133,13 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/512400_CF03_DU.pdf',
+      },
+      {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -341,6 +346,11 @@ export default {
           cargo: 'Asesora Metodológica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
+        {
+          nombre: 'José Grabriel Ortiz Abella ',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
       ],
     },
     {
@@ -383,6 +393,12 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

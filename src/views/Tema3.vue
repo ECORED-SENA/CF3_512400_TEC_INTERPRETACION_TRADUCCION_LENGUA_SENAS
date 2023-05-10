@@ -7,21 +7,39 @@
         span 3
       h1 El bilingüismo 
 
-    .row.justify-content-center.mb-5
-      .col-lg-10.mb-4(data-aos="zoom-in")
-        .bloque-texto-g.color-rosa.p-3.p-sm-4.p-md-5.mb-4
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/t3/t3_01.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 De acuerdo con McNamara (citado en Cárdenas, 2018), el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua, lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.       
+   
+    p.mb-5 De acuerdo con McNamara (citado en Cárdenas, 2018), #[strong el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua], lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.     
 
-      .col-lg-10(data-aos="zoom-in")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Bilingüismo 
-        figure
+      .row.justify-content-center.align-items-center
+        .col-lg-5.col-10.mb-4.mb-lg-0
+          figure
           img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt")
+        .col-lg-6
+          .bg_lightBlue.mb-4
+            h3.text-center.mb-4 Tipos de bilingüismo            
+
+            .bg_gray02.mb-3
+              h4 Weinreich
+              ul.fa-ul
+                li.mb-2
+                  i.fa-li.fas.fa-chevron-right.clr-orange
+                  | #[strong Bilingüismo coordinado:] desarrollo de sistemas lingüisticos paralelos.
+                li.mb-2
+                  i.fa-li.fas.fa-chevron-right.clr-orange
+                  | #[strong Bilingüismo compuesto:] un solo significado para dos significantes.              
+
+            .bg_gray02
+              h4 Hael
+              ul.fa-ul
+                li.mb-2
+                  i.fa-li.fas.fa-chevron-right.clr-orange
+                  | #[strong Bilingüismo limitado:] La competencia en ambas lenguas es probre.
+                li.mb-2
+                  i.fa-li.fas.fa-chevron-right.clr-orange
+                  | #[strong Bilingüismo desequilibrado:] una buena competencia solamente en una de las dos lenguas.
+                li.mb-2
+                  i.fa-li.fas.fa-chevron-right.clr-orange
+                  | #[strong Bilingüismo equilibrado:] buena competencia en las dos lenguas.       
 
     p.mb-5(data-aos="fade-in") Para el caso específico de la población sorda, a continuación se citan varios autores y referentes que conceptúan el término bilingüismo:
 
@@ -31,7 +49,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h3 Ley 982 de 2005, artículo 1°, numerales 9 y 12
-            p El sordo bilingüe es “todo aquel que vive una situación bilingüe en Lengua de Señas Colombiana y castellana, escrito u oral según el caso”, por lo cual utiliza dos (2) lenguas para establecer comunicación tanto con la comunidad sorda que utiliza la lengua de señas, como con la comunidad oyente que usa castellano. 
+            p El #[strong sordo bilingüe] es “todo aquel que vive una situación bilingüe en Lengua de Señas Colombiana y castellana, escrito u oral según el caso”, por lo cual utiliza dos (2) lenguas para establecer comunicación tanto con la comunidad sorda que utiliza la lengua de señas, como con la comunidad oyente que usa castellano. 
             p.mb-0 En el numeral 12 se entiende por educación bilingüe para sordos “la que reconoce que hay sordos que viven una situación bilingüe en Lengua de Señas Colombiana y castellano”, por lo tanto, su educación debe vehiculizar a través de la Lengua de Señas Colombiana y se debe facilitar el castellano como segundo idioma en su modalidad escrita primordialmente u oral en los casos en que esto sea posible.
           .col-lg-6.col-8
             figure
@@ -40,7 +58,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h3 Herrera y Calderón (2019)
-            p.mb-0 Desde el Congreso de Hamburgo realizado en 1980 se reconoce el derecho de las personas sordas a recibir educación bilingüe en su lengua natural. La Organización de Naciones Unidas reconoce este derecho en la Convención de Derechos de las Personas con Discapacidad en 2006, que Chile ratificó en 2008 y reafirma en la Ley 20.422 de igualdad de oportunidades e inclusión social de las personas con discapacidad, promulgada en 2010.
+            p.mb-0 Desde el Congreso de Hamburgo realizado en 1980 se reconoce el #[strong derecho de las personas sordas] a recibir educación bilingüe en su lengua natural. La Organización de Naciones Unidas reconoce este derecho en la Convención de Derechos de las Personas con Discapacidad en 2006, que Chile ratificó en 2008 y reafirma en la Ley 20.422 de igualdad de oportunidades e inclusión social de las personas con discapacidad, promulgada en 2010.
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/t3/t3_09.svg', alt='')
@@ -114,19 +132,19 @@
 
               ul.fa-ul
                 li
-                  i.fa-li.fa.fa-check-square
+                  i.fa-li.fas.fa-thumbs-up
                   | Comunicación fluida entre profesores y estudiantes para fomentar mejores aprendizajes, ello implica disponer de variadas habilidades comunicativas. 
                 .hr_line
                 li
-                  i.fa-li.fa.fa-check-square
+                  i.fa-li.fas.fa-thumbs-up
                   | Visualizar la información, la organización y los apoyos para mejorar la comprensión, la retención y la memorización.
                 .hr_line
                 li
-                  i.fa-li.fa.fa-check-square
+                  i.fa-li.fas.fa-thumbs-up
                   | Andamiaje y mediación durante la interacción guiada para el logro de los aprendizajes.
                 .hr_line
                 li
-                  i.fa-li.fa.fa-check-square
+                  i.fa-li.fas.fa-thumbs-up
                   | Enseñanza explícita, presentar los objetivos, mostrar la tarea y ejemplificarla, guiar su puesta en práctica y proveer oportunidades para ejercitarla hasta lograrla. 
 
             .col-lg-6.col-8
@@ -136,10 +154,10 @@
       .col-lg-11(data-aos="zoom-in")
         .crd-pink.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t3/t3_05.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 En la educación bilingüe del sordo es primordial que se desarrolle de manera completa la lengua de señas, que además debe ser estudiada por el sordo en todos sus niveles: fonológico, morfológico, sintáctico y discursivo, para lo que se debe llevar a cabo un proceso de estandarización y debe ser el vehículo de enseñanza del español
 
     .cstmH3--blue.mb-4(data-aos="fade-right")
@@ -162,10 +180,10 @@
       .col-lg-10        
         .cajon.color-celeste.p-4
           .row.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t3/t3_07.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 En los sistemas lingüísticos, también existen otras formas lingüísticas como: pidgin, creole, códigos señados caseros, códigos de uso restringido que existen en todo el mundo y ocurren cuando se ponen en contacto pueblos cuyos idiomas no son mutuamente inteligibles, pero tienen la capacidad para modificarse con la finalidad de satisfacer estas condiciones cambiantes. 
 
 </template>

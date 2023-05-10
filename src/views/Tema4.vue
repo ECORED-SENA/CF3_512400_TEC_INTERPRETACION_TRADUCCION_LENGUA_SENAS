@@ -22,10 +22,10 @@
       .col-lg-10        
         .cajon.color-celeste.p-4
           .row.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t4/t4_02.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 En 1994 nació esta división con cuatro jóvenes estudiantes sordos enfrentados a un contexto académico oralizado en el que se vieron en la imperiosa necesidad de adecuar su lengua a lo que para ellos eran los nuevos vocablos e iniciaron un proceso de creación de señas. En cuanto a muchas de las señas propuestas por Árbol de vida, tal parece ser que, efectivamente, no siguen los procesos más productivos que se han identificado. Se trata a menudo de señas que intentan ser etimológicas, a la manera de los neologismos de las lenguas orales basadas en los étimos griegos y latinos, en las que cada mano expresa una raíz. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -37,10 +37,10 @@
 
         .crd-pink.p-4(data-aos="zoom-in")
           .row.justify-content-center.align-items-center
-            .col-auto
+            .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t4/t4_03.svg", alt="alt").img85.m-auto
-            .col
+            .col-md
               p.mb-0 Una de las razones por las que existen los neologismos en la lengua de señas, es porque “un grupo de señas construyen significados complejos y tienen usos específicos, […] además, no existe seña simple. No son simples las señas tradicionales”, (Barreto, 2015); así como tampoco son simples los neologismos. Pese a todo lo anterior, estas nuevas formas de expresión o neologismos surgen para una mayor efectividad en la comunicación.
 
     .cstmH3--blue.mb-4(data-aos="fade-right")
@@ -139,6 +139,50 @@
             .col
               h3 Culturales
               p.mb-0 Pueden presentarse dificultades por interferencia entre los mismos hablantes de la lengua al designar objetos, fenómenos o procesos propios de una cultura.
+
+    p.mb-5 El fenómeno de los neologismos no atañe a la interpretación o traducción de textos, sino más bien de palabras y de expresiones, estas, a su vez pueden nacer por la planeación organizada o por la espontaneidad; para mejor compresión se deben revisar a continuación los tipos de neologías: 
+
+    .row.justify-content-center.mb-5(data-aos="fade-right")
+      .col-auto
+        .bg_darkBlue_02
+          h3.text-white.mb-0 Clasificación de las neologías
+
+    .row.justify-content-center.mb-4(data-aos="zoom-in")
+      .col-12.mb-4.d-lg-none.d-flex
+        figure
+          img(src="@/assets/curso/temas/t4/t4_16.svg", alt="alt").img300.m-auto
+      .col-lg-5.col
+        .blueSquare
+          h4 1. ¿Que es una neología?
+          .bg_pink.p-4
+            .row.justify-content-center.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/t4/t4_17.svg", alt="alt").img85.m-auto 
+              .col
+                p.mb-0 Campo de conocimiento que se ocupa del estudio de las palabras nuevas.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")    
+      .col-lg-4.mb-4.mb-lg-0
+        .blueSquare
+          h4 2.¿Qué es una neología espontanea?
+          .bg_pink.p-4
+            p Puede "ser consecuencia de un acto inconsciente por parte del hablante, que forma una nueva unidad sin darse cuenta de que se trata de una unidad no codificada en las obras lexicográficas". Estos nacen de la subjetividad, de un grupo o son extranjerismos. Estas suelen dejarse al azar y al uso particular según las necesidades de la comunidad, que luego pueden llegar a incorporarlas a su vocabulario.
+            figure
+              img(src="@/assets/curso/temas/t4/t4_18.svg", alt="alt").img85.m-auto
+
+      .col-lg-4.d-none.d-lg-flex
+        figure
+          img(src="@/assets/curso/temas/t4/t4_16.svg", alt="alt").img300.m-auto
+
+      .col-lg-4
+        .blueSquare
+          h4 3.¿Qué es una neología planificada?
+          .bg_pink.p-4
+            p Tiene como objetivo dotar a una lengua de recursos de expresión y de comunicación propios, es decir, de preservar una lengua, y para ello usa como base las nociones de norma y genuinidad linguistica". Pascual, (2015). Generalmente nace en instituciones que buscan describir términos nuevos.
+            figure
+              img(src="@/assets/curso/temas/t4/t4_19.svg", alt="alt").img85.m-auto
+
 
     p.mb-4(data-aos="fade-in") Existen diferentes argumentos y estrategias que pueden ayudar en el particular ejercicio de la validación de los neologismos en la lengua de señas, algunos de ellos bien vistos por la comunidad de sordos en Colombia y otros no tanto. Se pueden plantear entonces algunas generalidades para tener en cuenta sobre este tema. 
 
