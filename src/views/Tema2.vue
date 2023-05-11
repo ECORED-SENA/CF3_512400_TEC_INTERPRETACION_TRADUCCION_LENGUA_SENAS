@@ -201,7 +201,7 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_12A.png", alt="alt").img65.m-auto
             .col-md
-              p.mb-0 #[strong Dos superdialectos:] costeño y andino
+              p.mb-0 #[strong Dos superdialectos:] costeño y andino.
       
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
@@ -209,7 +209,7 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_12B.png", alt="alt").img65.m-auto
             .col-md
-              p.mb-0 #[strong Dos dialectos costeños:] el costeño pacifico y el costeño caribe (diferenciados por el tuteo-voseo)
+              p.mb-0 #[strong Dos dialectos costeños:] el costeño pacifico y el costeño caribe (diferenciados por el tuteo-voseo).
       
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
@@ -217,7 +217,7 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_12C.png", alt="alt").img65.m-auto
             .col-md
-              p.mb-0 #[strong Dos dialectos andinos:] el centro-oriental y el centro-occidental
+              p.mb-0 #[strong Dos dialectos andinos:] el centro-oriental y el centro-occidental.
       
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
@@ -233,7 +233,7 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_12E.png", alt="alt").img65.m-auto
             .col-md
-              p.mb-0 #[strong Subdivisiones de los subdialectos] (hablas regionales como el huilense o locales como el de Santa Marta)
+              p.mb-0 #[strong Subdivisiones de los subdialectos] (hablas regionales como el huilense o locales como el de Santa Marta).
     
 
     separador
@@ -569,7 +569,7 @@
                     | Cómo funciona el dedo.
                   li.mb-2
                     i.fa-li.fas.fa-chevron-right
-                    | Rasgos articulatorios: hace referencia a las partes móviles, ubicación y orientación
+                    | Rasgos articulatorios: hace referencia a las partes móviles, ubicación y orientación.
                   li.mb-2
                     i.fa-li.fas.fa-chevron-right
                     | Matriz articulatoria: configuración manual, ubicación y orientación del articulador.
