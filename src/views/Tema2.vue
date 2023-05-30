@@ -18,7 +18,7 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_01.svg", alt="alt")
       .col-lg-7(data-aos="flip-right")
-        SlyderF(columnas="col-12")        
+        SlyderF.text-center(columnas="col-12")        
           .tarjeta.crd-cyan.p-4.hg-100            
             h3 Primer pregunta
             p.mb-0 ¿Cuál es la diferencia entre lengua y dialecto?
@@ -90,7 +90,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_06.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 De acuerdo con McNamara (citado en Cárdenas, 2018), el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua, lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.  
+            p.mb-0 La sociolingüística tiene una relación muy estrecha con la dialectología, porque ambas son disciplinas que estudian la lengua hablada y el uso lingüístico relacionado con ciertos grupos de individuos. Además, las dos contemplan la heterogeneidad lingüística, lo que se evidencia en parámetros que se correlacionan con variaciones de estilo llamadas diferencias diafásicas.
 
     p.text-center.mb-5(data-aos="fade-in") Ahora, se invita a revisar con atención los siguientes conceptos que permiten entender los diferentes enfoques respecto al estudio de la lengua. 
 
@@ -402,11 +402,11 @@
 
           .tarjeta.color-acento-contenido.p-3(x="75%" y="7%" numero="+")
             .h5.mb-2 Diccionario virtual de biología - BioDic
-            p #[strong Abandono:] de concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable. 
+            p #[strong Abandono:] se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
 
           .tarjeta.color-acento-contenido.p-3(x="24%" y="95%" numero="+")
             .h5.mb-2 Diccionario de ciencias jurídicas, políticas y sociales, edición electrónica de Manuel Osorio.
-            p #[strong Abandono:] se aplica al fracaso de los padres o tutores para proporcionar las necesidades básicas a un niño por una privación emocional o física que interfiere con el crecimiento y desarrollo normal o que pone al niño en peligro.
+            p #[strong Abandono:] concepto más amplio que los de renuncia y dimisión, que en ningún caso pueden referirse a obligaciones o derechos que por su naturaleza o por la ley tienen carácter irrenunciable.
 
           .tarjeta.color-acento-contenido.p-3(x="75%" y="95%" numero="+")
             .h5.mb-2 Diccionario etimológico castellano en línea
@@ -594,7 +594,7 @@
                     | Detención: Periodo en el que la articulación no hace cambios.
                   li.mb-2
                     i.fa-li.fas.fa-chevron-right
-                    | Transición: periodo menos que el de la detención.
+                    | Transición: periodo menor que el de la detención.
       .col-lg-10(data-aos="flip-right")
         .bg_gray
           .row.g-0
@@ -604,7 +604,7 @@
                   img(src="@/assets/curso/temas/t2/t2_34.svg", alt="alt").img250.m-auto
             .col
               .bg_darkBlue
-                h4.mb-0 La postura de la mano
+                h4.mb-0 La actividad no manual
               .bg-gray.p-4
                 p Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.      
 
@@ -620,7 +620,7 @@
     .cstmH3--blue.mb-4(data-aos="fade-right")
       h3.mb-0 Sintaxis en la LSC
 
-    p.mb-5(data-aos="fade-in") La palabra sintaxis viene del griego sin que significa con y taxis que es orden; se invita a dar clic en el botón para profundizar en el término:
+    p.mb-5(data-aos="fade-in") La palabra sintaxis viene del griego #[i sin] que significa con y #[i taxis] que es orden; se invita a dar clic en el botón para profundizar en el término:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -646,7 +646,7 @@
         ul.fa-ul
           li
             i.fa-li.fa.fa-check-square
-            | Rasgos no manuales: cabeza y cara (mirada, mejillas, cejas, boca, mentón).Cuerpo. 
+            | Rasgos no manuales: cabeza y cara (mirada, mejillas, cejas, boca, mentón).
           .hr_line
           li
             i.fa-li.fa.fa-check-square
@@ -793,37 +793,32 @@
       .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-in")
         p.mb-4 Los elementos que componen la pragmática en cualquier idioma son:
         LineaTiempoD.color-secundario
-          .row(numero="1" titulo="Acto comunicativo")
+          .row(numero="1" titulo="Contexto")
             .col-12
               p.mb-0 Circunstancias que rodean la situación en un espacio temporal.
-
-          .row(numero="2" titulo="Contexto")
+          .row(numero="2" titulo="Acto comunicativo")
             .col-12
               p.mb-0 Acción en el que un emisor envía un mensaje en códigos mediante un canal y es comprendido por uno o más receptores.
 
-          .row(numero="3" titulo="Intencionalidad")
+          .row(numero="3" titulo="Relaciones interpersonales")
             .col-12
               p.mb-0 Relación recíproca entre dos o más personas en los que se conoce como contexto o acto social.
 
-          .row(numero="4" titulo="Relaciones interpersonales")
+          .row(numero="4" titulo="Conocimiento")
             .col-12
               p.mb-0 Representaciones abstractas que se almacena y adquiere mediante la experiencia.
 
-          .row(numero="5" titulo="Conocimiento")
+          .row(numero="5" titulo="Semántica")
             .col-12
-              p.mb-0 Estudia el significado de las palabras.
-
+              p.mb-0 Estudia el significado de las palabras. 
 
           .row(numero="6" titulo="Semiótica")
             .col-12
               p.mb-0 Disciplina que investiga la construcción y comprensión del significado de las palabras. 
 
-
-          .row(numero="7" titulo="Semántica")
+          .row(numero="7" titulo="Intencionalidad")
             .col-12
-              p.mb-0 Voluntad explícita del emisor para influir en la opinión del receptor.
-
-
+              p.mb-0 Voluntad explícita del emisor para influir en la opinión del receptor. 
 
     p.mb-4(data-aos="fade-in") En el caso particular de la minoría sorda que está sujeta a convivir en una sociedad mayormente oyente y oralizada, deben estar en constante contacto tanto con su comunidad como con el resto del mundo. Así, las situaciones de contacto de las personas sordas pueden ser:
 

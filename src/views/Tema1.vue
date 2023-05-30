@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_01.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 No siempre es evidente establecer la diferencia entre lengua materna y segunda lengua, la primera hace referencia como aquella que se aprende desde el momento mismo del nacimiento, puede expresarla de manera espontánea y fluida, es decir, la que lengua con la que se tiene más facilidad de comunicación y forma parte de la identidad del ser humano.
+            p.mb-0 No siempre es evidente establecer la diferencia entre lengua materna y segunda lengua, la primera hace referencia como aquella que se aprende desde el momento mismo del nacimiento, puede expresarla de manera espontánea y fluida, es decir, la lengua con la que se tiene más facilidad de comunicación y forma parte de la identidad del ser humano.
 
       .col-lg-10(data-aos="zoom-in")
         .cajon.color-celeste.p-4
@@ -93,7 +93,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 El aprendizaje y la adquisición de una lengua
 
-    p(data-aos="fade-in") Como se ha venido anticipando, los conceptos de adquisición y aprendizaje no son sinónimos, para conocer su definición se debe hacer clic en cada uno de los siguientes botones.
+    p(data-aos="fade-in") Como se ha venido anticipando, los conceptos de adquisición y aprendizaje no son sinónimos.
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
