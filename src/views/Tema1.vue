@@ -60,8 +60,14 @@
             .col-md
               p.mb-0 “Aquella lengua cuyo canal no presenta obstáculos a los hablantes y se encuentra en armonía con sus características fisiológicas y de igual manera que la lengua materna, es adquirida sin necesidad de instrucción formal” Nieto (2017).
 
-    .cstmH3--blue.mb-5(data-aos="fade-right")
-      h3.mb-0 Segunda lengua
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Segunda lengua
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10

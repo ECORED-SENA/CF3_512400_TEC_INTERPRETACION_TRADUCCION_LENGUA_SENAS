@@ -43,8 +43,9 @@
             .col-md
               p.mb-0 Una de las razones por las que existen los neologismos en la lengua de señas, es porque “un grupo de señas construyen significados complejos y tienen usos específicos, […] además, no existe seña simple. No son simples las señas tradicionales”, (Barreto, 2015); así como tampoco son simples los neologismos. Pese a todo lo anterior, estas nuevas formas de expresión o neologismos surgen para una mayor efectividad en la comunicación.
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Tipos de neologismos
+    Separador 
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 4.1 Tipos de neologismos
 
     p(data-aos="fade-in") A continuación, se indican algunos de los tipos de neologismos más utilizados por los académicos y que se pueden aplicar de igual manera a la Lengua de Señas Colombiana.
 
@@ -106,8 +107,9 @@
             figure
               img(src='@/assets/curso/temas/t4/t4_11.svg', alt='')
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Procedimiento para la creación, recolección, validación y divulgación de neologismos
+    Separador 
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 4.2 Procedimiento para la creación, recolección, validación y divulgación de neologismos
 
     p.mb-5(data-aos="fade-in") Los intereses para la creación de los neologismos son diferentes. En algunos casos pueden ser de tipo comercial, académico o gubernamental. Teniendo en cuenta lo anterior, los intérpretes y traductores se enfrentan con diversos y complejos retos porque requieren de una investigación profunda y obligatoria de cultura, contexto y temática de la lengua de señas para la creación de los neologismos.
 

@@ -104,8 +104,14 @@
               img(src='@/assets/curso/temas/t3/t3_14.svg', alt='')
            
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Aprendizaje de una segunda lengua
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Aprendizaje de una segunda lengua
 
     p.mb-5(data-aos="fade-in") El aprendizaje de una segunda lengua es un proceso que implica no solo el acercamiento a unos contenidos específicos, conceptos, códigos gramaticales entre otros, sino la apropiación y la comprensión de estos, lo cual requiere ir más allá de la repetición, en un sentido más profundo podría hablarse de la adquisición de una segunda lengua. 
 
@@ -160,8 +166,14 @@
             .col-md
               p.mb-0 En la educación bilingüe del sordo es primordial que se desarrolle de manera completa la lengua de señas, que además debe ser estudiada por el sordo en todos sus niveles: fonológico, morfológico, sintáctico y discursivo, para lo que se debe llevar a cabo un proceso de estandarización y debe ser el vehículo de enseñanza del español
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Sistemas de comunicación
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Sistemas de comunicación
 
     p.mb-5(data-aos="fade-in") Existen sistemas de comunicación alternativos que, de acuerdo con Tamarit (1989), son un conjunto estructurado de códigos no vocales, necesitados o no de soporte físico, los cuales, mediante procedimientos específicos de interacción, sirven para llevar a cabo actos de comunicación (funcional, espontánea y generalizable) por sí solos, o en conjunción con los códigos vocales, o como apoyo parcial a los mismos. 
 

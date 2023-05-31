@@ -116,8 +116,14 @@
             .col-12
               p.mb-0 Variable determinada por la situación en la cual el hablante se encuentra (contexto, interlocutores, circunstancias o finalidad de la comunicación) y según el tipo de relación entre los interlocutores, se selecciona el registro lingüístico, sea formal o informal. 
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Dialecto
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Dialecto
 
     p(data-aos="fade-in").mb-4 La definición de dialecto en el folclor popular hace referencia a las formas rústicas o inferiores de hablar una lengua. También se refiere a las lenguas minoritarias o con pocos hablantes, que no tienen el estatus oficial.
 
@@ -158,8 +164,14 @@
                   i.fa-li.fa.fa-dot-circle.clr-blue
                   | Se enfoca en los sectores rurales debido a la pureza de su lengua en las formas vernáculas o nativas propias de la localidad.
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Variedad dialectal
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Variedad dialectal
 
     p(data-aos="fade-in") Las causas del desarrollo de los diferentes dialectos o variedades de las lenguas son numerosas, pero básicamente son de dos tipos, a saber:
 
@@ -179,8 +191,14 @@
           p.mb-0 Al transcurrir el tiempo, las lenguas cambian de forma natural. Así, los hablantes de una misma lengua pueden ofrecer diversas posibilidades de expresarse, por ello, cuando algún grupo se inclina por una de estas, nace una diferencia dialectal. Estos factores incluyen procesos de regularización y generalización de patrones lingüísticos.
           
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 División dialectal en Colombia
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 División dialectal en Colombia
 
     p(data-aos="fade-in") La división adoptada del Atlas de Colombia del Instituto Geográfico Agustín Codazzi (1977), refiere desde el punto de vista de la etnografía y la sociología (comunidad criolla colombiana) y la divide en ocho grupos: costeño, caucano, antioqueño, santandereano, cundiboyacense, llanero, tolimense y nariñense. 
     p(data-aos="fade-in").mb-5 Montes (1983), propone una clasificación dialectal del español de Colombia de la siguiente manera:
@@ -451,8 +469,14 @@
 
     p.mb-5(data-aos="fade-in") Para este componente se hará referencia a las dos lenguas que corresponden a este programa: la Lengua de Señas Colombiana (LSC) y el español (escrito o hablado), siendo cualquiera de las dos la lengua fuente o la lengua meta. Por ello, se analizarán los factores gramaticales, pragmáticos y semánticos de las dos lenguas.
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 ¿Qué es la gramática en las lenguas orales?
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 ¿Qué es la gramática en las lenguas orales?
 
     p.mb-5(data-aos="fade-in") El término gramática viene del latín #[i grammatĭca], y este del griego #[i grammatikḗtékhne], donde #[i tékhne] significa arte o técnica y #[i grammatikḗ] viene de #[i grámma], que significa letra. Para los antiguos, este arte de las letras abarcaba todos los aspectos del discurso: ortografía, sintaxis, interpretación de los textos, entre otros. 
 
@@ -496,8 +520,14 @@
             figure
               img(src='@/assets/curso/temas/t2/t2_27.svg', alt='')
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Gramática en LSC
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Gramática en LSC
 
     p.mb-5(data-aos="fade-in") Al igual que en las lenguas orales y según las investigaciones de William Stokoe, las lenguas de señas también se estudian, tienen reglas y principios que rigen su uso, organización y combinación de sus diferentes partes dentro del discurso. No son simples códigos rudimentarios ni lingüísticos.
 
@@ -545,8 +575,14 @@
 
         p(data-aos="fade-in") Estas son las unidades mínimas que destacó y que componen las señas. Un solo cambio en alguno de los componentes significa la transformación de la seña en otra. 
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Morfología de la LSC
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Morfología de la LSC
 
     p(data-aos="fade-in").mb-5 Frente a la morfología de la Lengua de Señas en Colombia, Oviedo (2001), resalta los siguientes  aspectos:
 
@@ -617,8 +653,14 @@
 
         p.mb-0 En una conversación o discurso en LSC, una seña puede asumir algún rasgo de la seña que la antecede o de la seña que le sucede, lo que Oviedo (2001) llama “asimilación de la localización”. “Esta variación no es significativa, es decir, no añade ni quita significado al que ya tiene la seña”. También pueden notarse cambios en las locaciones de inicio o fin, cambios de configuración manual, cambios de variación en el número de las señas por repetición en el espacio o por morfemas de número en las configuraciones.
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Sintaxis en la LSC
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Sintaxis en la LSC
 
     p.mb-5(data-aos="fade-in") La palabra sintaxis viene del griego #[i sin] que significa con y #[i taxis] que es orden; se invita a dar clic en el botón para profundizar en el término:
 
@@ -689,8 +731,14 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_38.svg", alt="alt")
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Fonología en la LSC
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Fonología en la LSC
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -768,8 +816,14 @@
           h4 La lengua de señas se puede definir de la misma forma que una lengua oral cualquiera, debido a que la lengua de señas también es una lengua natural, y que por lo tanto se puede utilizar una definición amplia, es decir que es un sistema arbitrario de señas por medio del cual las personas sordas realizan sus actividades comunicativas dentro de una determinada cultura
           span.me-5.float-end - (Pietrosemoli, 1990).
 
-    .cstmH3--blue.mb-4(data-aos="fade-right")
-      h3.mb-0 Pragmática del español y la LSC
+    .row.justify-content-start.mb-4      
+      .col-auto.bg9-1.p-0(data-aos="flip-down")
+        .list.mb-1
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/v2.svg', alt='')
+          .list__txt
+            h4.mb-0 Pragmática del español y la LSC
 
     p(data-aos="fade-in").mb-5 La semántica abstrae al usuario, se concentra en el vínculo que existe entre los signos y los objetos; por su parte, la sintaxis considera entre los signos, sin prestar atención a los usuarios o a los significados; finalmente la pragmática se centra en el lenguaje tal y como se expresa en una situación comunicativa concreta. 
 
