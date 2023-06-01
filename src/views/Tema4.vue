@@ -167,7 +167,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")    
       .col-lg-4.mb-4.mb-lg-0
         .blueSquare
-          h4 2.¿Qué es una neología espontanea?
+          h4 2.¿Qué es una neología espontánea?
           .bg_pink.p-4
             p Puede "ser consecuencia de un acto inconsciente por parte del hablante, que forma una nueva unidad sin darse cuenta de que se trata de una unidad no codificada en las obras lexicográficas". Estos nacen de la subjetividad, de un grupo o son extranjerismos. Estas suelen dejarse al azar y al uso particular según las necesidades de la comunidad, que luego pueden llegar a incorporarlas a su vocabulario.
             figure

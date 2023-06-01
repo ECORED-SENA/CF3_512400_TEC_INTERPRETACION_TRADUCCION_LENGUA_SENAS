@@ -40,7 +40,6 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'fas fa-play-circle',
         numero: '1',
         titulo: 'Lengua materna y segunda lengua',
         desarrolloContenidos: true,

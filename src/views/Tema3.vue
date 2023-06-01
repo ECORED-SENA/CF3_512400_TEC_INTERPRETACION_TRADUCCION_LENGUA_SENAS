@@ -33,7 +33,7 @@
               ul.fa-ul
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right.clr-orange
-                  | #[strong Bilingüismo limitado:] La competencia en ambas lenguas es #[strong probre].
+                  | #[strong Bilingüismo limitado:] La competencia en ambas lenguas es #[strong pobre].
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right.clr-orange
                   | #[strong Bilingüismo desequilibrado:] una buena competencia solamente en una de las dos lenguas.
