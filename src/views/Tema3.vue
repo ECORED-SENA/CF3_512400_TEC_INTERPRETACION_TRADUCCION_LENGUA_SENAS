@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 El bilingüismo 
+      h1 El bilingüismo
 
-   
-    p.mb-5 De acuerdo con McNamara (citado en Cárdenas, 2018), #[strong el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua], lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.     
+
+    p.mb-5 De acuerdo con McNamara (citado en Cárdenas, 2018), #[strong el bilingüismo se define como la capacidad para desarrollar algún nivel de competencia: hablar, leer, entender, escribir en una segunda lengua], lo que implica el desarrollo de procesos de orden cognitivo de asimilación, integración y comprensión de las ideas, así como la expresión y verbalización de estas, involucrando así los procesos de pensamiento y lenguaje.
 
       .row.justify-content-center.align-items-center
         .col-lg-5.col-10.mb-4.mb-lg-0
@@ -16,7 +16,7 @@
           img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt")
         .col-lg-6
           .bg_lightBlue.mb-4
-            h3.text-center.mb-4 Tipos de bilingüismo            
+            h3.text-center.mb-4 Tipos de bilingüismo
 
             .bg_gray02.mb-3
               h4 Weinreich
@@ -26,7 +26,7 @@
                   | #[strong Bilingüismo coordinado:] desarrollo de sistemas lingüisticos paralelos.
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right.clr-orange
-                  | #[strong Bilingüismo compuesto:] un solo significado para dos significantes.              
+                  | #[strong Bilingüismo compuesto:] un solo significado para dos significantes.
 
             .bg_gray02
               h4 Hael
@@ -39,7 +39,7 @@
                   | #[strong Bilingüismo desequilibrado:] una buena competencia solamente en una de las dos lenguas.
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right.clr-orange
-                  | #[strong Bilingüismo equilibrado:] buena competencia en las dos lenguas.       
+                  | #[strong Bilingüismo equilibrado:] buena competencia en las dos lenguas.
 
     p.mb-5(data-aos="fade-in") Para el caso específico de la población sorda, a continuación se citan varios autores y referentes que conceptúan el término bilingüismo:
 
@@ -49,7 +49,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h3 Ley 982 de 2005, artículo 1°, numerales 9 y 12
-            p El #[strong sordo bilingüe] es “todo aquel que vive una situación bilingüe en Lengua de Señas Colombiana y castellana, escrito u oral según el caso”, por lo cual utiliza dos (2) lenguas para establecer comunicación tanto con la comunidad sorda que utiliza la lengua de señas, como con la comunidad oyente que usa castellano. 
+            p El #[strong sordo bilingüe] es “todo aquel que vive una situación bilingüe en Lengua de Señas Colombiana y castellana, escrito u oral según el caso”, por lo cual utiliza dos (2) lenguas para establecer comunicación tanto con la comunidad sorda que utiliza la lengua de señas, como con la comunidad oyente que usa castellano.
             p.mb-0 En el numeral 12 se entiende por educación bilingüe para sordos “la que reconoce que hay sordos que viven una situación bilingüe en Lengua de Señas Colombiana y castellano”, por lo tanto, su educación debe vehiculizar a través de la Lengua de Señas Colombiana y se debe facilitar el castellano como segundo idioma en su modalidad escrita primordialmente u oral en los casos en que esto sea posible.
           .col-lg-6.col-8
             figure
@@ -102,29 +102,24 @@
           .col-lg-6.col-8
             figure
               img(src='@/assets/curso/temas/t3/t3_14.svg', alt='')
-           
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9-1.p-0(data-aos="flip-down")
-        .list.mb-1
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/v2.svg', alt='')
-          .list__txt
-            h4.mb-0 Aprendizaje de una segunda lengua
 
-    p.mb-5(data-aos="fade-in") El aprendizaje de una segunda lengua es un proceso que implica no solo el acercamiento a unos contenidos específicos, conceptos, códigos gramaticales entre otros, sino la apropiación y la comprensión de estos, lo cual requiere ir más allá de la repetición, en un sentido más profundo podría hablarse de la adquisición de una segunda lengua. 
+    Separador
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.1 Aprendizaje de una segunda lengua
+
+    p.mb-5(data-aos="fade-in") El aprendizaje de una segunda lengua es un proceso que implica no solo el acercamiento a unos contenidos específicos, conceptos, códigos gramaticales entre otros, sino la apropiación y la comprensión de estos, lo cual requiere ir más allá de la repetición, en un sentido más profundo podría hablarse de la adquisición de una segunda lengua.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t3/t3_03.svg", alt="alt")
       .col-lg-8(data-aos="fade-in")
-        p De acuerdo con Alonso (1997), este proceso de adquisición implica dos modalidades del cerebro, a través del cual los conocimientos pasarían a formar parte de la memoria a largo plazo, adquiriendo a través de ello la competencia para producir el lenguaje. 
+        p De acuerdo con Alonso (1997), este proceso de adquisición implica dos modalidades del cerebro, a través del cual los conocimientos pasarían a formar parte de la memoria a largo plazo, adquiriendo a través de ello la competencia para producir el lenguaje.
 
         p De acuerdo con Paul y Moores (citados en Herrera y Calderón (2019), desde las epistemologías de sordos se reconoce la autoridad académica de los sordos, se valora la experiencia de la sordera en la generación de conocimiento educativo y se explicitan las diferencias en las formas de conocer y aprender de los sordos. La enseñanza del español desde este enfoque busca proveer respuestas sociales a las necesidades de aprendizaje de los sordos como estudiantes bilingües, a través de propuestas educativas que consideren las características individuales y las prácticas sociales de la población sorda.
 
-        p.mb-0 Las buenas prácticas de enseñanza de la lectura con sordos requieren al menos cinco componentes, los cuales se presentan a continuación. 
+        p.mb-0 Las buenas prácticas de enseñanza de la lectura con sordos requieren al menos cinco componentes, los cuales se presentan a continuación.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-11.mb-4
@@ -139,7 +134,7 @@
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-thumbs-up
-                  | Comunicación fluida entre profesores y estudiantes para fomentar mejores aprendizajes, ello implica disponer de variadas habilidades comunicativas. 
+                  | Comunicación fluida entre profesores y estudiantes para fomentar mejores aprendizajes, ello implica disponer de variadas habilidades comunicativas.
                 .hr_line
                 li
                   i.fa-li.fas.fa-thumbs-up
@@ -151,7 +146,7 @@
                 .hr_line
                 li
                   i.fa-li.fas.fa-thumbs-up
-                  | Enseñanza explícita, presentar los objetivos, mostrar la tarea y ejemplificarla, guiar su puesta en práctica y proveer oportunidades para ejercitarla hasta lograrla. 
+                  | Enseñanza explícita, presentar los objetivos, mostrar la tarea y ejemplificarla, guiar su puesta en práctica y proveer oportunidades para ejercitarla hasta lograrla.
 
             .col-lg-6.col-8
               figure
@@ -166,16 +161,11 @@
             .col-md
               p.mb-0 En la educación bilingüe del sordo es primordial que se desarrolle de manera completa la lengua de señas, que además debe ser estudiada por el sordo en todos sus niveles: fonológico, morfológico, sintáctico y discursivo, para lo que se debe llevar a cabo un proceso de estandarización y debe ser el vehículo de enseñanza del español
 
-    .row.justify-content-start.mb-4      
-      .col-auto.bg9-1.p-0(data-aos="flip-down")
-        .list.mb-1
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/v2.svg', alt='')
-          .list__txt
-            h4.mb-0 Sistemas de comunicación
+    Separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 3.2 Sistemas de comunicación
 
-    p.mb-5(data-aos="fade-in") Existen sistemas de comunicación alternativos que, de acuerdo con Tamarit (1989), son un conjunto estructurado de códigos no vocales, necesitados o no de soporte físico, los cuales, mediante procedimientos específicos de interacción, sirven para llevar a cabo actos de comunicación (funcional, espontánea y generalizable) por sí solos, o en conjunción con los códigos vocales, o como apoyo parcial a los mismos. 
+    p.mb-5(data-aos="fade-in") Existen sistemas de comunicación alternativos que, de acuerdo con Tamarit (1989), son un conjunto estructurado de códigos no vocales, necesitados o no de soporte físico, los cuales, mediante procedimientos específicos de interacción, sirven para llevar a cabo actos de comunicación (funcional, espontánea y generalizable) por sí solos, o en conjunción con los códigos vocales, o como apoyo parcial a los mismos.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -186,17 +176,17 @@
                 img(src="@/assets/curso/temas/t3/t3_06.svg", alt="alt")
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 En esta medida de acuerdo con Hael (2018), para el caso de la población sorda en primer lugar, los modos de transmisión, percepción y expresión, que en el caso de la lengua de señas es mediante el sistema visual e implica en gran medida el aspecto kinésico y en la lengua hablada –en este caso, el español– se realiza a través del sistema auditivo e implica movimientos bucales y labiales. Recalca también la dificultad que implica para el alumno sordo adentrarse en la cultura escrita de una segunda lengua cuando en la mayoría de los casos no tienen consolidada su primera lengua.   
+                p.mb-0 En esta medida de acuerdo con Hael (2018), para el caso de la población sorda en primer lugar, los modos de transmisión, percepción y expresión, que en el caso de la lengua de señas es mediante el sistema visual e implica en gran medida el aspecto kinésico y en la lengua hablada –en este caso, el español– se realiza a través del sistema auditivo e implica movimientos bucales y labiales. Recalca también la dificultad que implica para el alumno sordo adentrarse en la cultura escrita de una segunda lengua cuando en la mayoría de los casos no tienen consolidada su primera lengua.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10        
+      .col-lg-10
         .cajon.color-celeste.p-4
           .row.align-items-center
             .col.col-md-auto.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/t3/t3_07.svg", alt="alt").img85.m-auto
             .col-md
-              p.mb-0 En los sistemas lingüísticos, también existen otras formas lingüísticas como: pidgin, creole, códigos señados caseros, códigos de uso restringido que existen en todo el mundo y ocurren cuando se ponen en contacto pueblos cuyos idiomas no son mutuamente inteligibles, pero tienen la capacidad para modificarse con la finalidad de satisfacer estas condiciones cambiantes. 
+              p.mb-0 En los sistemas lingüísticos, también existen otras formas lingüísticas como: pidgin, creole, códigos señados caseros, códigos de uso restringido que existen en todo el mundo y ocurren cuando se ponen en contacto pueblos cuyos idiomas no son mutuamente inteligibles, pero tienen la capacidad para modificarse con la finalidad de satisfacer estas condiciones cambiantes.
 
 </template>
 

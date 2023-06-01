@@ -18,46 +18,79 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_01.svg", alt="alt")
       .col-lg-7(data-aos="flip-right")
-        SlyderF.text-center(columnas="col-12")        
-          .tarjeta.crd-cyan.p-4.hg-100            
-            h3 Primer pregunta
-            p.mb-0 ¿Cuál es la diferencia entre lengua y dialecto?
 
-          .tarjeta.crd-cyan.p-4.hg-100             
-            h3 Segunda pregunta
-            p.mb-0 ¿Por qué “suenan diferente”, por ejemplo, un mexicano, un español y un chileno cuando hablan la misma lengua, el castellano o el español?
+        .d-lg-none
+          .row.justify-content-center
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Primer pregunta
+                p.mb-0 ¿Cuál es la diferencia entre lengua y dialecto?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Segunda pregunta
+                p.mb-0 ¿Por qué “suenan diferente”, por ejemplo, un mexicano, un español y un chileno cuando hablan la misma lengua, el castellano o el español?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Tercera pregunta
+                p.mb-0 ¿Qué nos motiva a elegir una forma de decir algo entre varias opciones similares?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Cuarta pregunta
+                p.mb-0 ¿Por qué cambian las lenguas y no hablamos hoy como hablaban, por ejemplo, Cervantes o Bolívar, en el caso del castellano?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Quinta pregunta
+                p.mb-0 ¿Qué es lo que sabemos cuando solo a partir de la manera de hablar de una persona, sin necesidad de verla, podemos adivinar su nivel de instrucción, su sexo, su religión o país de origen e incluso su edad?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Sexta pregunta
+                p.mb-0 Lingüísticamente hablando, ¿es bilingüe la suma de dos monolingües?
+            .col-11.mb-4
+              .tarjeta.crd-cyan.p-4
+                h3 Septima pregunta
+                p.mb-0 ¿Cuánto y cómo cambia una lengua en una situación de bilingüismo social?
 
-          .tarjeta.crd-cyan.p-4.hg-100           
-            h3 Tercera pregunta
-            p.mb-0 ¿Qué nos motiva a elegir una forma de decir algo entre varias opciones similares?
+        .d-none.d-lg-block
+          SlyderF.text-center(columnas="col-12")
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Primer pregunta
+              p.mb-0 ¿Cuál es la diferencia entre lengua y dialecto?
 
-          .tarjeta.crd-cyan.p-4.hg-100           
-            h3 Cuarta pregunta
-            p.mb-0 ¿Por qué cambian las lenguas y no hablamos hoy como hablaban, por ejemplo, Cervantes o Bolívar, en el caso del castellano? 
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Segunda pregunta
+              p.mb-0 ¿Por qué “suenan diferente”, por ejemplo, un mexicano, un español y un chileno cuando hablan la misma lengua, el castellano o el español?
 
-          .tarjeta.crd-cyan.p-4.hg-100            
-            h3 Quinta pregunta
-            p.mb-0 ¿Qué es lo que sabemos cuando solo a partir de la manera de hablar de una persona, sin necesidad de verla, podemos adivinar su nivel de instrucción, su sexo, su religión o país de origen e incluso su edad? 
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Tercera pregunta
+              p.mb-0 ¿Qué nos motiva a elegir una forma de decir algo entre varias opciones similares?
 
-          .tarjeta.crd-cyan.p-4.hg-100           
-            h3 Sexta pregunta
-            p.mb-0 Lingüísticamente hablando, ¿es bilingüe la suma de dos monolingües?
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Cuarta pregunta
+              p.mb-0 ¿Por qué cambian las lenguas y no hablamos hoy como hablaban, por ejemplo, Cervantes o Bolívar, en el caso del castellano?
 
-          .tarjeta.crd-cyan.p-4.hg-100          
-            h3 Septima pregunta
-            p.mb-0 ¿Cuánto y cómo cambia una lengua en una situación de bilingüismo social?          
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Quinta pregunta
+              p.mb-0 ¿Qué es lo que sabemos cuando solo a partir de la manera de hablar de una persona, sin necesidad de verla, podemos adivinar su nivel de instrucción, su sexo, su religión o país de origen e incluso su edad?
+
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Sexta pregunta
+              p.mb-0 Lingüísticamente hablando, ¿es bilingüe la suma de dos monolingües?
+
+            .tarjeta.crd-cyan.p-4.hg-100
+              h3 Septima pregunta
+              p.mb-0 ¿Cuánto y cómo cambia una lengua en una situación de bilingüismo social?
 
 
     p.mb-5(data-aos="fade-in") La sociolingüística abarca una amplia variedad de tendencias o fenómenos en lo referente al estudio de una o más lenguas en el contexto social, por lo que definirla de manera precisa es una tarea compleja. Dichos fenómenos se relacionan con los siguientes factores sociales:
 
-    .row.justify-content-center.mb-5      
+    .row.justify-content-center.mb-5
       .col-lg-3.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
         .crd--avatarV.clr--blue
           .crd--avatarV--img
             figure
               img(src="@/assets/curso/temas/t2/t2_02.svg", alt="alt").img85.m-auto
           .crd--avatarV--body
-            p.bold.text-center Los sistemas de organización política, social, económica y geográfica de una sociedad específica.   
+            p.bold.text-center Los sistemas de organización política, social, económica y geográfica de una sociedad específica.
 
       .col-lg-3.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
         .crd--avatarV.clr--pink
@@ -65,7 +98,7 @@
             figure
               img(src="@/assets/curso/temas/t2/t2_03.svg", alt="alt").img85.m-auto
           .crd--avatarV--body
-            p.bold.text-center Factores individuales de la sociedad en general (edad, raza, sexo, educación).    
+            p.bold.text-center Factores individuales de la sociedad en general (edad, raza, sexo, educación).
 
       .col-lg-3.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
         .crd--avatarV.clr--blue
@@ -73,7 +106,7 @@
             figure
               img(src="@/assets/curso/temas/t2/t2_04.svg", alt="alt").img85.m-auto
           .crd--avatarV--body
-            p.bold.text-center Aspectos históricos y étnico culturales.  
+            p.bold.text-center Aspectos históricos y étnico culturales.
 
       .col-lg-3.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-right")
         .crd--avatarV.clr--pink
@@ -81,7 +114,7 @@
             figure
               img(src="@/assets/curso/temas/t2/t2_05.svg", alt="alt").img85.m-auto
           .crd--avatarV--body
-            p.bold.text-center Contexto externo en que ocurren los hechos lingüísticos.   
+            p.bold.text-center Contexto externo en que ocurren los hechos lingüísticos.
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-10
@@ -92,7 +125,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La sociolingüística tiene una relación muy estrecha con la dialectología, porque ambas son disciplinas que estudian la lengua hablada y el uso lingüístico relacionado con ciertos grupos de individuos. Además, las dos contemplan la heterogeneidad lingüística, lo que se evidencia en parámetros que se correlacionan con variaciones de estilo llamadas diferencias diafásicas.
 
-    p.text-center.mb-5(data-aos="fade-in") Ahora, se invita a revisar con atención los siguientes conceptos que permiten entender los diferentes enfoques respecto al estudio de la lengua. 
+    p.text-center.mb-5(data-aos="fade-in") Ahora, se invita a revisar con atención los siguientes conceptos que permiten entender los diferentes enfoques respecto al estudio de la lengua.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -102,21 +135,21 @@
          LineaTiempoD.color-secundario
           .row(numero="1" titulo="Diasistema")
             .col-12
-              p.mb-0 La coexistencia de sistemas en toda la lengua, es un conjunto de dialectos, niveles y estilos de lenguaje.  No es un sistema lingüístico, sino una serie de sistemas que se relacionan entre sí formando un conjunto que no constituye una lengua unitaria, sino variable y en cambio constante.  
+              p.mb-0 La coexistencia de sistemas en toda la lengua, es un conjunto de dialectos, niveles y estilos de lenguaje.  No es un sistema lingüístico, sino una serie de sistemas que se relacionan entre sí formando un conjunto que no constituye una lengua unitaria, sino variable y en cambio constante.
 
           .row(numero="2" titulo="Diatopía")
             .col-12
-              p.mb-0 Según la Real Academia Española, este término hace referencia a una diferencia lingüística que se debe a las diferentes procedencias geográficas de los hablantes.  
+              p.mb-0 Según la Real Academia Española, este término hace referencia a una diferencia lingüística que se debe a las diferentes procedencias geográficas de los hablantes.
 
           .row(numero="3" titulo="Diastratía")
             .col-12
-              p.mb-0 Cambios de una lengua por razones socioculturales, este término hace referencia puntualmente al estudio de los diferentes niveles socioculturales de los hablantes. 
+              p.mb-0 Cambios de una lengua por razones socioculturales, este término hace referencia puntualmente al estudio de los diferentes niveles socioculturales de los hablantes.
 
           .row(numero="4" titulo="Diafasía")
             .col-12
-              p.mb-0 Variable determinada por la situación en la cual el hablante se encuentra (contexto, interlocutores, circunstancias o finalidad de la comunicación) y según el tipo de relación entre los interlocutores, se selecciona el registro lingüístico, sea formal o informal. 
+              p.mb-0 Variable determinada por la situación en la cual el hablante se encuentra (contexto, interlocutores, circunstancias o finalidad de la comunicación) y según el tipo de relación entre los interlocutores, se selecciona el registro lingüístico, sea formal o informal.
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -128,10 +161,10 @@
     p(data-aos="fade-in").mb-4 La definición de dialecto en el folclor popular hace referencia a las formas rústicas o inferiores de hablar una lengua. También se refiere a las lenguas minoritarias o con pocos hablantes, que no tienen el estatus oficial.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-in")       
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-in")
         p Por otro lado, en el uso técnico de la palabra dialecto, para el lingüista, es una variedad de lengua que comparte una comunidad. Por lo tanto, para algunos académicos el término dialecto puede tener connotaciones peyorativas, por lo que prefieren llamarlo de manera más neutral: variedad de lengua. Para otros, es establecer criterios objetivos para determinar lo que es un dialecto y delimitarlo con suficiente aproximación en normas específicas es motivo de preocupación y estudio.
 
-        p La coexistencia entre la sociolingüística y la dialectología es aún más evidente en los términos con los que algunos autores dan a conocer a la sociolingüística, a saber, dialectología social, dialectología urbana y sociodialectología. 
+        p La coexistencia entre la sociolingüística y la dialectología es aún más evidente en los términos con los que algunos autores dan a conocer a la sociolingüística, a saber, dialectología social, dialectología urbana y sociodialectología.
       .col-lg-4.col-10(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_08.png", alt="alt")
@@ -143,16 +176,16 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_09.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El interés por los dialectos y su estudio se inicia a finales del siglo XVIII. Para definir el término dialecto, es necesario tener claridad en otros conceptos que están íntimamente relacionados entre sí, a saber, lengua, estilo de lengua y nivel de lengua. Muchos académicos han intentado estudiar y clasificar dialectalmente el español de América, acabando en esbozos o propuestas de una clasificación panhispánica, mientras que otros han aportado algunas precisiones teóricas para tal clasificación. Uno de ellos es la bipartición dialectal entre el español americano con el peninsular de España.      
+            p.mb-0 El interés por los dialectos y su estudio se inicia a finales del siglo XVIII. Para definir el término dialecto, es necesario tener claridad en otros conceptos que están íntimamente relacionados entre sí, a saber, lengua, estilo de lengua y nivel de lengua. Muchos académicos han intentado estudiar y clasificar dialectalmente el español de América, acabando en esbozos o propuestas de una clasificación panhispánica, mientras que otros han aportado algunas precisiones teóricas para tal clasificación. Uno de ellos es la bipartición dialectal entre el español americano con el peninsular de España.
 
-      .col-lg-10(data-aos="fade-in")    
+      .col-lg-10(data-aos="fade-in")
         .crd-cyan02.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-10.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/t2/t2_10.svg", alt="alt")
             .col-lg-9
-              p La dialectología: 
+              p La dialectología:
               ul.fa-ul
                 li.mb-2
                   i.fa-li.fa.fa-dot-circle.clr-blue
@@ -164,7 +197,7 @@
                   i.fa-li.fa.fa-dot-circle.clr-blue
                   | Se enfoca en los sectores rurales debido a la pureza de su lengua en las formas vernáculas o nativas propias de la localidad.
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -189,9 +222,9 @@
         .col-lg-4
           h3 Factores internos, propios de la lengua y de su estructura
           p.mb-0 Al transcurrir el tiempo, las lenguas cambian de forma natural. Así, los hablantes de una misma lengua pueden ofrecer diversas posibilidades de expresarse, por ello, cuando algún grupo se inclina por una de estas, nace una diferencia dialectal. Estos factores incluyen procesos de regularización y generalización de patrones lingüísticos.
-          
 
-    .row.justify-content-start.mb-4      
+
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -200,13 +233,13 @@
           .list__txt
             h4.mb-0 División dialectal en Colombia
 
-    p(data-aos="fade-in") La división adoptada del Atlas de Colombia del Instituto Geográfico Agustín Codazzi (1977), refiere desde el punto de vista de la etnografía y la sociología (comunidad criolla colombiana) y la divide en ocho grupos: costeño, caucano, antioqueño, santandereano, cundiboyacense, llanero, tolimense y nariñense. 
+    p(data-aos="fade-in") La división adoptada del Atlas de Colombia del Instituto Geográfico Agustín Codazzi (1977), refiere desde el punto de vista de la etnografía y la sociología (comunidad criolla colombiana) y la divide en ocho grupos: costeño, caucano, antioqueño, santandereano, cundiboyacense, llanero, tolimense y nariñense.
     p(data-aos="fade-in").mb-5 Montes (1983), propone una clasificación dialectal del español de Colombia de la siguiente manera:
 
     .row.justify-content-center.mb-3(data-aos="fade-right")
       .col-auto
         .bg_darkBlue_02
-          h4.text-white.mb-0 Clasificación dialectal del español de Colombia    
+          h4.text-white.mb-0 Clasificación dialectal del español de Colombia
 
     .row.justify-content-center.align-items-center
       .col-xl-7.col-lg-7(data-aos="zoom-in")
@@ -220,7 +253,7 @@
                 img(src="@/assets/curso/temas/t2/t2_12A.png", alt="alt").img65.m-auto
             .col-md
               p.mb-0 #[strong Dos superdialectos:] costeño y andino.
-      
+
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -228,7 +261,7 @@
                 img(src="@/assets/curso/temas/t2/t2_12B.png", alt="alt").img65.m-auto
             .col-md
               p.mb-0 #[strong Dos dialectos costeños:] el costeño pacifico y el costeño caribe (diferenciados por el tuteo-voseo).
-      
+
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -236,7 +269,7 @@
                 img(src="@/assets/curso/temas/t2/t2_12C.png", alt="alt").img65.m-auto
             .col-md
               p.mb-0 #[strong Dos dialectos andinos:] el centro-oriental y el centro-occidental.
-      
+
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -244,7 +277,7 @@
                 img(src="@/assets/curso/temas/t2/t2_12D.png", alt="alt").img65.m-auto
             .col-md
               p.mb-0 #[strong Una serie de subdialectos:] el cartagenero, el samario, el guajiro, el costeño interior en el costeño caribe, el antioqueño, el nariñense-caucano, el tolimense-huilense, el cundiboyacense y el santandereano en el dialecto centro-oriental, determinados por isoglosas léxicas.
-      
+
         .bg_gray02.mb-4(data-aos="flip-right")
           .row.align-items-center
             .col-md-auto.mb-3.mb-md-0
@@ -252,7 +285,7 @@
                 img(src="@/assets/curso/temas/t2/t2_12E.png", alt="alt").img65.m-auto
             .col-md
               p.mb-0 #[strong Subdivisiones de los subdialectos] (hablas regionales como el huilense o locales como el de Santa Marta).
-    
+
 
     separador
 
@@ -266,56 +299,100 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_01.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Lo característico en la mayoría de las personas es la constante mezcla del lenguaje culto con el lenguaje vulgar u ordinario en lo que corresponde a vocabulario, morfología y fonética. La variedad situacional o diafásica más utilizada de la lengua es el llamado registro coloquial, que se caracteriza por ser espontáneo, relajado y expresivo; en un contexto informal, familiar y distendido. Se invita a revisar el siguiente ejemplo: 
+            p.mb-0 Lo característico en la mayoría de las personas es la constante mezcla del lenguaje culto con el lenguaje vulgar u ordinario en lo que corresponde a vocabulario, morfología y fonética. La variedad situacional o diafásica más utilizada de la lengua es el llamado registro coloquial, que se caracteriza por ser espontáneo, relajado y expresivo; en un contexto informal, familiar y distendido. Se invita a revisar el siguiente ejemplo:
 
-    SlyderF(columnas="col-lg-4").mb-5  
-      .crd--avatarV.clr--blue(data-aos="flip-right")
-        .crd--avatarV--img
-          figure
-            img(src="@/assets/curso/temas/t2/t2_13.svg", alt="alt").img168.m-auto
-        .crd--avatarV--body
-          h3.text-center Voseo en Medellín
-          p.mb-0 Es una forma de tratamiento pronominal que utiliza el vos del singular en lugar del tú, y que ha sido muy escrito, pero poco estudiado en Colombia por ser un tema de carácter regional y no generalizado como en Argentina o Costa Rica. 
+    .d-lg-none
+      .row.justify-content-center
+        .col-11.mb-4
+          .crd--avatarV.clr--blue(data-aos="flip-right")
+            .crd--avatarV--img
+              figure
+                img(src="@/assets/curso/temas/t2/t2_13.svg", alt="alt").img168.m-auto
+            .crd--avatarV--body
+              h3.text-center Voseo en Medellín
+              p.mb-0 Es una forma de tratamiento pronominal que utiliza el vos del singular en lugar del tú, y que ha sido muy escrito, pero poco estudiado en Colombia por ser un tema de carácter regional y no generalizado como en Argentina o Costa Rica.
+        .col-11.mb-4
+          .crd--avatarV.clr--pink(data-aos="flip-right")
+            .crd--avatarV--img
+              figure
+                img(src="@/assets/curso/temas/t2/t2_14.svg", alt="alt").img168.m-auto
+            .crd--avatarV--body
+              h3.text-center ¿De dónde surgió?
+              p.mb-0  Lo que se conoce de la historia de este uso coloquial es que antes de la conquista, los españoles usaban el voseo en un trato respetuoso en la alta sociedad, para después traerlo a América.
+        .col-11.mb-4
+          .crd--avatarV.clr--blue(data-aos="flip-right")
+            .crd--avatarV--img
+              figure
+                img(src="@/assets/curso/temas/t2/t2_15.svg", alt="alt").img168.m-auto
+            .crd--avatarV--body
+              h3.text-center Siglo XVIII
+              p.mb-0  En este siglo extrañamente el voseo comenzó a perder prestigio hasta ser descontinuado en España y luego en la mayor parte de América Latina.
+        .col-11.mb-4
+          .crd--avatarV.clr--pink(data-aos="flip-right")
+            .crd--avatarV--img
+              figure
+                img(src="@/assets/curso/temas/t2/t2_16.svg", alt="alt").img168.m-auto
+            .crd--avatarV--body
+              h3.text-center ¿Por qué en Medellín?
+              p.mb-0  Solo en los lugares más apartados, como Medellín, que por su geografía montañosa era poco concurrida por los españoles y que no existía mucha población indígena que realizará el trabajo forzoso, se vieron obligados trabajar manteniendo el voseo como una relación de confianza.
+        .col-11.mb-4
+          .crd--avatarV.clr--blue(data-aos="flip-right")
+            .crd--avatarV--img
+              figure
+                img(src="@/assets/curso/temas/t2/t2_17.svg", alt="alt").img168.m-auto
+            .crd--avatarV--body
+              h3.text-center Actualmente…
+              p.mb-0  Este voseo continuó hasta el día de hoy debido a su aislamiento y, además, inculcó en la cultura paisa una realidad independiente.
 
-      .crd--avatarV.clr--pink(data-aos="flip-right")
-        .crd--avatarV--img
-          figure
-            img(src="@/assets/curso/temas/t2/t2_14.svg", alt="alt").img168.m-auto
-        .crd--avatarV--body
-          h3.text-center ¿De dónde surgió?
-          p.mb-0  Lo que se conoce de la historia de este uso coloquial es que antes de la conquista, los españoles usaban el voseo en un trato respetuoso en la alta sociedad, para después traerlo a América. 
+    .d-none.d-lg-block
+      SlyderF(columnas="col-lg-4").mb-5
+        .crd--avatarV.clr--blue(data-aos="flip-right")
+          .crd--avatarV--img
+            figure
+              img(src="@/assets/curso/temas/t2/t2_13.svg", alt="alt").img168.m-auto
+          .crd--avatarV--body
+            h3.text-center Voseo en Medellín
+            p.mb-0 Es una forma de tratamiento pronominal que utiliza el vos del singular en lugar del tú, y que ha sido muy escrito, pero poco estudiado en Colombia por ser un tema de carácter regional y no generalizado como en Argentina o Costa Rica.
 
-      .crd--avatarV.clr--blue(data-aos="flip-right")
-        .crd--avatarV--img
-          figure
-            img(src="@/assets/curso/temas/t2/t2_15.svg", alt="alt").img168.m-auto
-        .crd--avatarV--body
-          h3.text-center Siglo XVIII
-          p.mb-0  En este siglo extrañamente el voseo comenzó a perder prestigio hasta ser descontinuado en España y luego en la mayor parte de América Latina. 
+        .crd--avatarV.clr--pink(data-aos="flip-right")
+          .crd--avatarV--img
+            figure
+              img(src="@/assets/curso/temas/t2/t2_14.svg", alt="alt").img168.m-auto
+          .crd--avatarV--body
+            h3.text-center ¿De dónde surgió?
+            p.mb-0  Lo que se conoce de la historia de este uso coloquial es que antes de la conquista, los españoles usaban el voseo en un trato respetuoso en la alta sociedad, para después traerlo a América.
 
-      .crd--avatarV.clr--pink(data-aos="flip-right")
-        .crd--avatarV--img
-          figure
-            img(src="@/assets/curso/temas/t2/t2_16.svg", alt="alt").img168.m-auto
-        .crd--avatarV--body
-          h3.text-center ¿Por qué en Medellín? 
-          p.mb-0  Solo en los lugares más apartados, como Medellín, que por su geografía montañosa era poco concurrida por los españoles y que no existía mucha población indígena que realizará el trabajo forzoso, se vieron obligados trabajar manteniendo el voseo como una relación de confianza.
+        .crd--avatarV.clr--blue(data-aos="flip-right")
+          .crd--avatarV--img
+            figure
+              img(src="@/assets/curso/temas/t2/t2_15.svg", alt="alt").img168.m-auto
+          .crd--avatarV--body
+            h3.text-center Siglo XVIII
+            p.mb-0  En este siglo extrañamente el voseo comenzó a perder prestigio hasta ser descontinuado en España y luego en la mayor parte de América Latina.
 
-      .crd--avatarV.clr--blue(data-aos="flip-right")
-        .crd--avatarV--img
-          figure
-            img(src="@/assets/curso/temas/t2/t2_17.svg", alt="alt").img168.m-auto
-        .crd--avatarV--body
-          h3.text-center Actualmente…
-          p.mb-0  Este voseo continuó hasta el día de hoy debido a su aislamiento y, además, inculcó en la cultura paisa una realidad independiente. 
+        .crd--avatarV.clr--pink(data-aos="flip-right")
+          .crd--avatarV--img
+            figure
+              img(src="@/assets/curso/temas/t2/t2_16.svg", alt="alt").img168.m-auto
+          .crd--avatarV--body
+            h3.text-center ¿Por qué en Medellín?
+            p.mb-0  Solo en los lugares más apartados, como Medellín, que por su geografía montañosa era poco concurrida por los españoles y que no existía mucha población indígena que realizará el trabajo forzoso, se vieron obligados trabajar manteniendo el voseo como una relación de confianza.
+
+        .crd--avatarV.clr--blue(data-aos="flip-right")
+          .crd--avatarV--img
+            figure
+              img(src="@/assets/curso/temas/t2/t2_17.svg", alt="alt").img168.m-auto
+          .crd--avatarV--body
+            h3.text-center Actualmente…
+            p.mb-0  Este voseo continuó hasta el día de hoy debido a su aislamiento y, además, inculcó en la cultura paisa una realidad independiente.
 
     p.mb-5(data-aos="fade-in") El lenguaje coloquial tiene unas características particulares que vale la pena identificar:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in") 
+      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_18.svg", alt="alt")
-      .col-lg-7(data-aos="fade-right") 
+      .col-lg-7(data-aos="fade-right")
          LineaTiempoD.color-secundario
           .row(numero="1" titulo="Conversación")
             .col-12
@@ -338,7 +415,7 @@
                   | Abundan las contracciones.
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right
-                  | Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.       
+                  | Pronunciación alterada del seseo (se pronuncia la S en lugar de la Z) y el ceceo (se pronuncia la Z en vez de la S) como fenómeno fonético.
 
           .row(numero="2" titulo="Espontaneidad e imprecisión")
             .col-12
@@ -355,7 +432,7 @@
                   | Incorrecciones léxicas.
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right
-                  | Uso de apócopes. 
+                  | Uso de apócopes.
 
           .row(numero="3" titulo="Expresividad")
             .col-12
@@ -372,7 +449,7 @@
                   | Utilización de comparaciones humorísticas.
                 li.mb-2
                   i.fa-li.fas.fa-chevron-right
-                  | Uso de jerga y argot. 
+                  | Uso de jerga y argot.
 
           .row(numero="4" titulo="Contacto con el emisor")
             .col-12
@@ -391,28 +468,28 @@
                   i.fa-li.fas.fa-chevron-right
                   | Pérdida de eufemística.
 
-   
-    .cajon.color-rosa.p-4.mb-5(data-aos="zoom-in")          
+
+    .cajon.color-rosa.p-4.mb-5(data-aos="zoom-in")
       p.mb-0 El uso diario de la lengua en la cotidianidad se escapa de la terminología académica, industrial o de alguna disciplina específica. Es conocido también como lenguaje técnico o tecnicismos y se refiere a todo el vocabulario o expresiones que pertenecen a un área o campo profesional específico. Generalmente, el intérprete o traductor tiene entrenamiento en algún campo y no en todas las áreas.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-in") 
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-in")
         p No solo se trata de conocer la terminología, sino también de reflejar el tono de manera objetiva, por lo que el traductor e intérprete debe entender y estar familiarizado con el tema. El grado de comprensión y emisión del mensaje dependerá del nivel de información que posea el intérprete. Es más común encontrar traductores técnicos que intérpretes de lengua de señas colombiana especializados en un campo profesional.
 
         p.mb-0 Los tecnicismos son monosémicos, por lo que solo los especialistas pueden distinguir con precisión términos propios de su ciencia. En ocasiones, un término puede tener la apariencia de una palabra del léxico coloquial, pero cuando se lee en un contexto técnico su significado es unívoco. Por lo tanto, el vocabulario técnico no puede ser empleado en el lenguaje coloquial. Lo único que estos pueden tener en común es su forma gramatical.
-      .col-lg-4.col-10(data-aos="zoom-in") 
+      .col-lg-4.col-10(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_19.png", alt="alt")
 
     p.mb-5(data-aos="fade-in")  Por ejemplo, el término “abandono” es expuesto a los tecnicismos y a una descripción propia en diferentes diccionarios, así:
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="zoom-in") 
+      .col-lg-10(data-aos="zoom-in")
         ImagenInfografica.color-acento-contenido
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/t2/t2_20.svg', alt='')
-              
+
 
           .tarjeta.color-acento-contenido.p-3(x="24%" y="7%" numero="+")
             .h5.mb-2  Diccionario de la Real Academia Española - RAE
@@ -430,8 +507,8 @@
             .h5.mb-2 Diccionario etimológico castellano en línea
             p #[strong Abandono:] viene del verbo abandonar y este del francés abandonner, y este de la expresión #[i laisser à bandon] (dejar en poder de alguien).
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in") 
-      .col-lg-10        
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-10
         .cajon.color-celeste.p-4
           .row.align-items-center
             .col.col-md-auto.mb-4.mb-md-0
@@ -442,13 +519,13 @@
 
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right") 
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Factores gramaticales, pragmáticos y semánticos de la lengua fuente y meta (español - LSC y LSC - español)
-    
+
     p.mb-5(data-aos="fade-in") ¿Qué es la lengua fuente y la lengua meta? A continuación, sus definiciones:
 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0(data-aos="flip-right") 
+      .col-lg-6.mb-4.mb-lg-0(data-aos="flip-right")
         .crd-avatar-Horizontal.hg-100
           .row
             .col-auto
@@ -457,19 +534,19 @@
             .col
               h3 Lengua fuente
               p.mb-0 Hace referencia a la lengua de partida, el objeto de la traducción o interpretación. También llamada de origen o de salida.
-      .col-lg-6(data-aos="flip-right") 
+      .col-lg-6(data-aos="flip-right")
         .crd-avatar-Horizontal.hg-100
           .row
             .col-auto
               figure
                 img(src="@/assets/curso/temas/t2/t2_23.svg", alt="alt").img85
             .col
-              h3 Lengua meta 
+              h3 Lengua meta
               p.mb-0 Es aquella como resultado de la traducción o interpretación, llamada también lengua traducida (traducción) o interpretada (interpretación).
 
     p.mb-5(data-aos="fade-in") Para este componente se hará referencia a las dos lenguas que corresponden a este programa: la Lengua de Señas Colombiana (LSC) y el español (escrito o hablado), siendo cualquiera de las dos la lengua fuente o la lengua meta. Por ello, se analizarán los factores gramaticales, pragmáticos y semánticos de las dos lenguas.
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -478,10 +555,10 @@
           .list__txt
             h4.mb-0 ¿Qué es la gramática en las lenguas orales?
 
-    p.mb-5(data-aos="fade-in") El término gramática viene del latín #[i grammatĭca], y este del griego #[i grammatikḗtékhne], donde #[i tékhne] significa arte o técnica y #[i grammatikḗ] viene de #[i grámma], que significa letra. Para los antiguos, este arte de las letras abarcaba todos los aspectos del discurso: ortografía, sintaxis, interpretación de los textos, entre otros. 
+    p.mb-5(data-aos="fade-in") El término gramática viene del latín #[i grammatĭca], y este del griego #[i grammatikḗtékhne], donde #[i tékhne] significa arte o técnica y #[i grammatikḗ] viene de #[i grámma], que significa letra. Para los antiguos, este arte de las letras abarcaba todos los aspectos del discurso: ortografía, sintaxis, interpretación de los textos, entre otros.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10.mb-4   
+      .col-lg-10.mb-4
         .crd-cyan02.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-10.mb-4.mb-lg-0
@@ -491,14 +568,14 @@
               p.mb-0 La gramática es el estudio de las reglas y principios que rigen el uso de las lenguas y la organización o combinación de las palabras dentro de las oraciones. La gramática es una parte de la lingüística o el estudio general del lenguaje.
 
       .col-lg-10(data-aos="fade-in")
-        p.mb-0 Para algunos expertos, la gramática comprende solo la morfología y la sintaxis, mientras que para otros también los sonidos y los fonemas; a continuación, se invita a revisar a qué hace referencia cada uno de estos términos: 
+        p.mb-0 Para algunos expertos, la gramática comprende solo la morfología y la sintaxis, mientras que para otros también los sonidos y los fonemas; a continuación, se invita a revisar a qué hace referencia cada uno de estos términos:
 
     .bg-slyder.p-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             h3 Morfología
-            p.mb-0 Se encarga de la estructura de las palabras, de sus componentes internos, definiendo y clasificando sus unidades: morfología flexiva (las variantes de las palabras), la morfología derivativa (la formación de nuevas palabras, afijos) y los neologismos (composición). 
+            p.mb-0 Se encarga de la estructura de las palabras, de sus componentes internos, definiendo y clasificando sus unidades: morfología flexiva (las variantes de las palabras), la morfología derivativa (la formación de nuevas palabras, afijos) y los neologismos (composición).
           .col-lg-5.col-8
             figure
               img(src='@/assets/curso/temas/t2/t2_25.svg', alt='')
@@ -515,12 +592,12 @@
           .col-lg-7.mb-4.mb-lg-0
             h3 Fonología
             p.mb-4 Se ocupa de estudiar los fonemas o sonidos vocálicos y consonánticos que forman una lengua. Interpreta la manera como los sonidos surgen a nivel abstracto o mental. Se escriben entre diagonales para representar el sonido gráficamente, por ejemplo:
-            p #[i.bold /s/ + /o/ + /l/ = sol] 
+            p #[i.bold /s/ + /o/ + /l/ = sol]
           .col-lg-5.col-8
             figure
               img(src='@/assets/curso/temas/t2/t2_27.svg', alt='')
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -553,8 +630,8 @@
                   figure
                     img(src="@/assets/curso/temas/t2/t2_29.svg", alt="alt").img85
                 .col
-                  h4.mb-0 Forma de manos 
-                  
+                  h4.mb-0 Forma de manos
+
           .col-lg-4.col-md-7.col-12.mb-4.mb-lg-0
             .crd-avatar-Horizontal(data-aos="flip-right")
               .row.align-items-center
@@ -562,7 +639,7 @@
                   figure
                     img(src="@/assets/curso/temas/t2/t2_30.svg", alt="alt").img85
                 .col
-                  h4.mb-0 La ubicación                   
+                  h4.mb-0 La ubicación
 
           .col-lg-4.col-md-7.col-12
             .crd-avatar-Horizontal(data-aos="flip-right")
@@ -571,11 +648,11 @@
                   figure
                     img(src="@/assets/curso/temas/t2/t2_31.svg", alt="alt").img85
                 .col
-                  h4.mb-0 El movimiento                   
+                  h4.mb-0 El movimiento
 
-        p(data-aos="fade-in") Estas son las unidades mínimas que destacó y que componen las señas. Un solo cambio en alguno de los componentes significa la transformación de la seña en otra. 
+        p(data-aos="fade-in") Estas son las unidades mínimas que destacó y que componen las señas. Un solo cambio en alguno de los componentes significa la transformación de la seña en otra.
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -642,7 +719,7 @@
               .bg_darkBlue
                 h4.mb-0 La actividad no manual
               .bg-gray.p-4
-                p Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.      
+                p Rasgos no manuales con actividad como la cara (mejillas, cejas, boca, ojos, mentón), la cabeza y el cuerpo.
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-10.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="zoom-in")
@@ -653,7 +730,7 @@
 
         p.mb-0 En una conversación o discurso en LSC, una seña puede asumir algún rasgo de la seña que la antecede o de la seña que le sucede, lo que Oviedo (2001) llama “asimilación de la localización”. “Esta variación no es significativa, es decir, no añade ni quita significado al que ya tiene la seña”. También pueden notarse cambios en las locaciones de inicio o fin, cambios de configuración manual, cambios de variación en el número de las señas por repetición en el espacio o por morfemas de número en las configuraciones.
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -692,7 +769,7 @@
           .hr_line
           li
             i.fa-li.fa.fa-check-square
-            | Cuerpo. 
+            | Cuerpo.
           .hr_line
           li
             i.fa-li.fa.fa-check-square
@@ -731,7 +808,7 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_38.svg", alt="alt")
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -748,11 +825,11 @@
               figure
                 img(src="@/assets/curso/temas/t2/t2_39.svg", alt="alt")
             .col-lg-8
-              p.mb-0 Los trabajos realizados por William Stokoe en 1960 sobre la Lengua de Señas Americana (ASL), Lidell en 1993 y Johnson en 1995, constituyen la base para hablar de fonología en las lenguas de señas. El desarrollo de la fonología aplicada a las lenguas de señas mostró a los primeros lingüistas que también tienen un carácter secuencial, lo que condujo al desarrollo de un sistema de notación fonética para las unidades de segmentación de los signos. 
+              p.mb-0 Los trabajos realizados por William Stokoe en 1960 sobre la Lengua de Señas Americana (ASL), Lidell en 1993 y Johnson en 1995, constituyen la base para hablar de fonología en las lenguas de señas. El desarrollo de la fonología aplicada a las lenguas de señas mostró a los primeros lingüistas que también tienen un carácter secuencial, lo que condujo al desarrollo de un sistema de notación fonética para las unidades de segmentación de los signos.
 
     p.mb-5(data-aos="fade-in") Si la fonología es el conjunto de los fonemas, es decir, la unidad mínima simbólica, estos pueden analizarse con base en parámetros básicos como los siguientes:
 
-    SlyderF(columnas="col-lg-4").mb-4(data-aos="zoom-in")        
+    SlyderF(columnas="col-lg-4").mb-4(data-aos="zoom-in")
       .crd--avatarV.clr--blue
         .crd--avatarV--img
           figure
@@ -816,7 +893,7 @@
           h4 La lengua de señas se puede definir de la misma forma que una lengua oral cualquiera, debido a que la lengua de señas también es una lengua natural, y que por lo tanto se puede utilizar una definición amplia, es decir que es un sistema arbitrario de señas por medio del cual las personas sordas realizan sus actividades comunicativas dentro de una determinada cultura
           span.me-5.float-end - (Pietrosemoli, 1990).
 
-    .row.justify-content-start.mb-4      
+    .row.justify-content-start.mb-4
       .col-auto.bg9-1.p-0(data-aos="flip-down")
         .list.mb-1
           .list__item
@@ -825,7 +902,7 @@
           .list__txt
             h4.mb-0 Pragmática del español y la LSC
 
-    p(data-aos="fade-in").mb-5 La semántica abstrae al usuario, se concentra en el vínculo que existe entre los signos y los objetos; por su parte, la sintaxis considera entre los signos, sin prestar atención a los usuarios o a los significados; finalmente la pragmática se centra en el lenguaje tal y como se expresa en una situación comunicativa concreta. 
+    p(data-aos="fade-in").mb-5 La semántica abstrae al usuario, se concentra en el vínculo que existe entre los signos y los objetos; por su parte, la sintaxis considera entre los signos, sin prestar atención a los usuarios o a los significados; finalmente la pragmática se centra en el lenguaje tal y como se expresa en una situación comunicativa concreta.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -836,8 +913,8 @@
                 img(src="@/assets/curso/temas/t2/t2_36.png", alt="alt").img85.m-auto
             .col-md
               p.mb-0 #[strong Pragmática:] estudia cómo se usa el lenguaje y se relacionan el enunciado, el contexto y los interlocutores. Esta rama de la lingüística estudia cómo se desenvuelve la conversación e interacción en determinados contextos. El contexto se refiere a la situación en la que se desarrolla el acto comunicativo y las relaciones interpersonales entre los hablantes.
-    
-    
+
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-8.order-2.order-lg-1(data-aos="zoom-in")
@@ -864,15 +941,15 @@
 
           .row(numero="5" titulo="Semántica")
             .col-12
-              p.mb-0 Estudia el significado de las palabras. 
+              p.mb-0 Estudia el significado de las palabras.
 
           .row(numero="6" titulo="Semiótica")
             .col-12
-              p.mb-0 Disciplina que investiga la construcción y comprensión del significado de las palabras. 
+              p.mb-0 Disciplina que investiga la construcción y comprensión del significado de las palabras.
 
           .row(numero="7" titulo="Intencionalidad")
             .col-12
-              p.mb-0 Voluntad explícita del emisor para influir en la opinión del receptor. 
+              p.mb-0 Voluntad explícita del emisor para influir en la opinión del receptor.
 
     p.mb-4(data-aos="fade-in") En el caso particular de la minoría sorda que está sujeta a convivir en una sociedad mayormente oyente y oralizada, deben estar en constante contacto tanto con su comunidad como con el resto del mundo. Así, las situaciones de contacto de las personas sordas pueden ser:
 
@@ -949,7 +1026,7 @@
               img(src="@/assets/curso/temas/t2/t2_49.svg", alt="alt").img85.m-auto
           .crd--avatarV--body
             h4.text-center.mb-0 Sordo hablante
-          
+
       .col-lg-3.col-md-6.col-8
         .crd--avatarV.clr--blue.hg-100(data-aos="flip-right")
           .crd--avatarV--img
@@ -1075,7 +1152,7 @@
         figure
           img(src="@/assets/curso/temas/t2/t2_53.svg", alt="alt")
       .col-lg-8(data-aos="fade-in")
-        p El texto puede referirse a una expresión oral, corporal o escrita como acto de comunicación de signos que forman un mensaje coherente con una finalidad específica. Los textos se pueden clasificar según diferentes criterios: 
+        p El texto puede referirse a una expresión oral, corporal o escrita como acto de comunicación de signos que forman un mensaje coherente con una finalidad específica. Los textos se pueden clasificar según diferentes criterios:
 
         .row
           .col-lg-6
@@ -1119,25 +1196,6 @@
                 | Argumentativos.
               .hr_line
 
-          
-
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-        
-          
-          
 
 
 
@@ -1154,7 +1212,6 @@
 
 
 
-          
 
 
 
@@ -1166,8 +1223,28 @@
 
 
 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
