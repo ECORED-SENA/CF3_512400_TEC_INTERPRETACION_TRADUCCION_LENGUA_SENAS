@@ -355,7 +355,7 @@ export default {
         },
         {
           nombre: 'Nidian Yarume Ortiz Buitrago',
-          cargo: 'Experta temática',
+          cargo: 'Experta Temática',
           centro:
             'Centro de Formación en Talento Humano y Salud - Regional Distrito Capital',
         },
@@ -372,7 +372,7 @@ export default {
         },
         {
           nombre: 'José Gabriel Ortiz Abella ',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -394,19 +394,19 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -429,7 +429,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
